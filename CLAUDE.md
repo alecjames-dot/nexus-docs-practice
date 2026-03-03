@@ -12,7 +12,6 @@ Nexus is a layer 1 blockchain built around a zkVM (zero-knowledge virtual machin
 |-----------|----------|
 | `docs/product/specs/` | Feature specs, organized by domain (zkVM, prover-network, usdx, privacy, governance) |
 | `docs/product/personas/` | User persona definitions referenced in spec user stories |
-| `docs/architecture/decisions/` | Architecture Decision Records (ADRs) — immutable after acceptance |
 | `docs/ai-context/` | GLOSSARY.md, CONSTRAINTS.md — always read these before generating code or specs |
 | `docs/research/` | User research, UX research, competitive and differentiation research |
 | `docs/product/` | VISION.md, ROADMAP.md |

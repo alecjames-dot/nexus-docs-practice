@@ -45,8 +45,6 @@ nexus-docs-practice/
     ├── research/
     │   └── user-research/
     │       └── USER_RESEARCH_INSIGHTS.md
-    ├── architecture/
-    │   └── decisions/          # Architecture Decision Records (ADRs)
     └── ai-context/
         ├── GLOSSARY.md
         └── CONSTRAINTS.md
@@ -62,10 +60,7 @@ Every document has a status. The status in `PRODUCT_MAP.md` is the canonical sou
 **2. Specs before code.**
 If a spec does not exist for what you are building, write one first. No spec = no build.
 
-**3. ADRs are immutable.**
-Once an Architecture Decision Record is accepted, it is a historical record and cannot be edited retroactively. Supersede it with a new ADR instead.
-
-**4. Keep the map current.**
+**3. Keep the map current.**
 Any time you add, move, or deprecate a document, update `PRODUCT_MAP.md` in the same PR/commit.
 
 ---
@@ -152,16 +147,6 @@ reference only; the authoritative task list lives in Linear.
 
 ---
 
-## Writing an ADR
-
-1. Copy `docs/architecture/decisions/_template/ADR-000.md`.
-2. Number it sequentially (e.g., `ADR-006-your-title.md`).
-3. Status starts as `PROPOSED`, moves to `ACCEPTED` or `REJECTED`.
-4. Once accepted, the document is frozen — open a new ADR to supersede it.
-5. Add it to the ADR table in `PRODUCT_MAP.md`.
-
----
-
 ## Research Documents
 
 All user research lives under `docs/research/user-research/`. User research
@@ -194,7 +179,6 @@ AI agents must not generate code or specs for `DRAFT` documents without explicit
 | Type | Convention | Example |
 |------|-----------|---------|
 | Specs | `SCREAMING-KEBAB.md` | `YIELD-SPEC.md` |
-| ADRs | `ADR-NNN-short-title.md` | `ADR-005-erc5564-over-custom.md` |
 | Research docs | `SCREAMING-KEBAB.md` | `USER_RESEARCH_INSIGHTS.md` |
 | Directories | `kebab-case` | `prover-network/` |
 

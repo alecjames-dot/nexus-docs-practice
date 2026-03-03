@@ -78,14 +78,6 @@ User research lives here and links to the specs it informed.
 
 ---
 
-## Architecture Decision Records (ADRs)
-
-| ADR | Status | Date | Summary |
-|-----|--------|------|---------|
-| — | — | — | — |
-
----
-
 ## Open Drafts
 
 | Spec | Owner | Blocking Question |
@@ -108,4 +100,3 @@ User research lives here and links to the specs it informed.
 |----------|---------|
 | [Spec Template](docs/product/specs/_template/SPEC.md) | New feature specs |
 | [Project Plan Template](docs/product/specs/_template/PROJECT_PLAN.md) | Per-product project plans |
-| [ADR Template](docs/architecture/decisions/_template/ADR-000.md) | Architecture decision records |

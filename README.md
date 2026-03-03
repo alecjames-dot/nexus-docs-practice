@@ -7,8 +7,7 @@ Product documentation for the Nexus protocol — a layer 1 blockchain built arou
 | Section | Path | Purpose |
 |---------|------|---------|
 | Product specs | `docs/product/specs/` | Feature specs by domain |
-| Research | `docs/research/` | UX, competitive, and differentiation research |
-| Architecture decisions | `docs/architecture/decisions/` | Immutable ADRs |
+| Research | `docs/research/` | User research insights |
 | AI context | `docs/ai-context/` | Glossary and constraints for AI agents |
 | Launch calendar | `LAUNCH_CALENDAR.md` | Expected launch dates by product |
 | Product map | `PRODUCT_MAP.md` | Canonical status of all docs |

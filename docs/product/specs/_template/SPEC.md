@@ -7,7 +7,6 @@
 **Approved by (Engineering):** —
 **Linear:** [Project Name](https://linear.app/nexus/project/...)
 **Figma:** [Design File Name](https://figma.com/file/...)
-**ADRs:** —
 **Related Research:** —
 **Related Specs:** —
 
