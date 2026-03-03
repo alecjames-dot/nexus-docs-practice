@@ -56,25 +56,25 @@ User research lives here and links to the specs it informed.
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | — | — |
+| — | — | — | — | — |
 
 ### USDX
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | — | — |
+| — | — | — | — | — |
 
 ### Nexus Exchange
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | — | — |
+| — | — | — | — | — |
 
 ### zkVM
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | — | — |
+| — | — | — | — | — |
 
 ---
 
@@ -82,7 +82,7 @@ User research lives here and links to the specs it informed.
 
 | ADR | Status | Date | Summary |
 |-----|--------|------|---------|
-| [ADR-001: Title](*link*) | Status | YYYY-MM-DD | Summary |
+| — | — | — | — |
 
 ---
 
@@ -90,7 +90,7 @@ User research lives here and links to the specs it informed.
 
 | Spec | Owner | Blocking Question |
 |------|-------|-------------------|
-| [Name](link) | @owner | Description |
+| — | — | — |
 
 ---
 
@@ -98,7 +98,7 @@ User research lives here and links to the specs it informed.
 
 | Document | Deprecated | Reason |
 |----------|-----------|--------|
-| ~~[Title](link)~~ | YYYY-MM-DD | Superseded by ADR-005; replaced by XXXX |
+| — | — | — |
 
 ---
 
