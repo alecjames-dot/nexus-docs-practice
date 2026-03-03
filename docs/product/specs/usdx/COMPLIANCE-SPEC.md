@@ -3,7 +3,12 @@
 **Status:** Review
 **Owner:** @alec
 **Last Updated:** 2026-02-01
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-005 — ERC-5564 over Custom Stealth](../../../architecture/decisions/ADR-005-erc5564-over-custom.md)
+**Related Research:** —
 **Related Specs:** [USDX Core](./SPEC.md), [ERC-5564 Stealth Addresses](../privacy/erc5564/SPEC.md)
 
 ---

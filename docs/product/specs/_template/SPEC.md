@@ -1,10 +1,15 @@
 # [Feature Name] Spec
 
-**Status:** Draft | Review | Approved | Shipped | Deprecated
+**Status:** DRAFT | SCOPING | SCHEDULING | APPROVED | STARTED | SHIPPED | DEPRECATED
 **Owner:** @handle
 **Last Updated:** YYYY-MM-DD
-**ADRs:** [ADR-NNN](../../../architecture/decisions/ADR-NNN.md)
-**Related Specs:** [Other Feature](../other/SPEC.md)
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** [Project Name](https://linear.app/nexus/project/...)
+**Figma:** [Design File Name](https://figma.com/file/...)
+**ADRs:** —
+**Related Research:** —
+**Related Specs:** —
 
 ---
 

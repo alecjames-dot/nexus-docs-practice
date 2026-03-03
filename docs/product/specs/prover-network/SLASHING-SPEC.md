@@ -3,7 +3,12 @@
 **Status:** Draft
 **Owner:** @priya
 **Last Updated:** 2026-02-10
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-003 — USDX Burn Authority](../../../architecture/decisions/ADR-003-usdx-burn-authority.md), [ADR-004 — Prover Slashing Scope](../../../architecture/decisions/ADR-004-prover-slashing-scope.md)
+**Related Research:** —
 **Related Specs:** [Prover Network](./SPEC.md), [USDX Core](../usdx/SPEC.md)
 
 ---

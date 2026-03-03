@@ -1,6 +1,6 @@
 # Product Map
 
-**Last audited:** 2026-03-02 | **Owner:** @alec | **Status legend below**
+**Last audited:** 2026-03-03 | **Owner:** @alec | **Status legend below**
 
 ---
 
@@ -26,7 +26,7 @@
 | [VISION.md](docs/product/VISION.md) | @alec | Mission, pillars, north star metric |
 | [ROADMAP.md](docs/product/ROADMAP.md) | @alec | Phase-by-phase delivery plan |
 | [GUIDELINES.md](GUIDELINES.md) | @alec | Doc system conventions, status lifecycle, naming rules |
-| [LAUNCH_CALENDAR.md](LAUNCH_CALENDAR.md) | @alec | Expected launch dates and key milestones by product |
+| [LAUNCH_CALENDAR.md](LAUNCH_CALENDAR.md) | @alec | Product planning board and launch date tracker. Owned by product. |
 
 ---
 
@@ -42,12 +42,11 @@
 
 ## Research
 
+User research lives here and links to the specs it informed.
+
 | Document | Owner | Description |
 |----------|-------|-------------|
 | [User Research Insights](docs/research/user-research/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
-| [UX Research](docs/research/ux-research/) | @alec | Interaction patterns, flows, usability testing |
-| [Competitive Research](docs/research/competitive-research/) | @alec | Competitor analysis and market landscape |
-| [Differentiation Research](docs/research/differentiation-research/) | @alec | Positioning, moats, unique value props |
 
 ---
 
@@ -55,27 +54,27 @@
 
 ### Nexus Mainnet
 
-| Spec | Owner | Status | Last Updated |
-|------|-------|--------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | YYYY-DD-MM |
+| Spec | Owner | Status | Last Updated | Project Plan |
+|------|-------|--------|--------------|--------------|
+| [Spec Name](*link*) | @owner | `STATUS` | — | — |
 
 ### USDX
 
-| Spec | Owner | Status | Last Updated |
-|------|-------|--------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | YYYY-DD-MM |
+| Spec | Owner | Status | Last Updated | Project Plan |
+|------|-------|--------|--------------|--------------|
+| [Spec Name](*link*) | @owner | `STATUS` | — | — |
 
 ### Nexus Exchange
 
-| Spec | Owner | Status | Last Updated |
-|------|-------|--------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | YYYY-DD-MM |
+| Spec | Owner | Status | Last Updated | Project Plan |
+|------|-------|--------|--------------|--------------|
+| [Spec Name](*link*) | @owner | `STATUS` | — | — |
 
 ### zkVM
 
-| Spec | Owner | Status | Last Updated |
-|------|-------|--------|--------------|
-| [Spec Name](*link*) | @owner | `STATUS` | YYYY-DD-MM |
+| Spec | Owner | Status | Last Updated | Project Plan |
+|------|-------|--------|--------------|--------------|
+| [Spec Name](*link*) | @owner | `STATUS` | — | — |
 
 ---
 
@@ -108,4 +107,5 @@
 | Template | Use For |
 |----------|---------|
 | [Spec Template](docs/product/specs/_template/SPEC.md) | New feature specs |
+| [Project Plan Template](docs/product/specs/_template/PROJECT_PLAN.md) | Per-product project plans |
 | [ADR Template](docs/architecture/decisions/_template/ADR-000.md) | Architecture decision records |

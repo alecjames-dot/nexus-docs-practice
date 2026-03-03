@@ -3,7 +3,12 @@
 **Status:** Approved
 **Owner:** @priya
 **Last Updated:** 2026-01-08
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-004 — Prover Slashing Scope](../../../architecture/decisions/ADR-004-prover-slashing-scope.md)
+**Related Research:** —
 **Related Specs:** [zkVM Execution Environment](../zkvm/SPEC.md), [Prover Slashing v1](./SLASHING-SPEC.md)
 
 ---

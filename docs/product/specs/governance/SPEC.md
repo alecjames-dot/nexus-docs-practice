@@ -3,7 +3,12 @@
 **Status:** Draft
 **Owner:** @alec
 **Last Updated:** 2026-02-15
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** None yet — governance design is pending token model decisions
+**Related Research:** —
 **Related Specs:** [USDX Core](../usdx/SPEC.md), [Prover Slashing v1](../prover-network/SLASHING-SPEC.md)
 
 ---

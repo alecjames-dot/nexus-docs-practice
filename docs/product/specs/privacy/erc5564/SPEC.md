@@ -3,7 +3,12 @@
 **Status:** Approved
 **Owner:** @marcus
 **Last Updated:** 2026-01-15
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-005 — ERC-5564 over Custom Stealth](../../../../architecture/decisions/ADR-005-erc5564-over-custom.md)
+**Related Research:** —
 **Related Specs:** [USDX Core](../../usdx/SPEC.md), [USDX Compliance Layer](../../usdx/COMPLIANCE-SPEC.md)
 
 ---

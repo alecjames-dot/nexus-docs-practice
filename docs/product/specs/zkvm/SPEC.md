@@ -3,7 +3,12 @@
 **Status:** Approved
 **Owner:** @marcus
 **Last Updated:** 2025-12-01
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-001 — zkVM Proof Strategy](../../../architecture/decisions/ADR-001-zkvm-proof-strategy.md)
+**Related Research:** —
 **Related Specs:** [Prover Network](../prover-network/SPEC.md)
 
 ---

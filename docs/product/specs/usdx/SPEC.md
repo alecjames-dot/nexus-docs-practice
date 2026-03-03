@@ -3,7 +3,12 @@
 **Status:** Approved
 **Owner:** @alec
 **Last Updated:** 2025-12-15
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-003 — USDX Burn Authority](../../../architecture/decisions/ADR-003-usdx-burn-authority.md)
+**Related Research:** —
 **Related Specs:** [USDX Variable Yield](./YIELD-SPEC.md), [USDX Compliance Layer](./COMPLIANCE-SPEC.md), [ERC-5564 Stealth Addresses](../privacy/erc5564/SPEC.md)
 
 ---

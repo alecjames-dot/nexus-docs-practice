@@ -1,6 +1,6 @@
 # Documentation System Guidelines
 
-**Owner:** @alec | **Last updated:** 2026-03-02
+**Owner:** @alec | **Last updated:** 2026-03-03
 
 This document explains how to work within the Nexus docs system — how documents are structured, how to add or update content, and the conventions that keep things consistent.
 
@@ -13,7 +13,7 @@ nexus-docs-practice/
 ├── README.md                   # Repo overview and quick start
 ├── GUIDELINES.md               # This file
 ├── PRODUCT_MAP.md              # Canonical index of all documents and their status
-├── LAUNCH_CALENDAR.md          # Product launch dates and key milestones
+├── LAUNCH_CALENDAR.md          # Product planning board and launch date tracker
 ├── CLAUDE.md                   # AI agent briefing — read before using AI tooling
 ├── CHANGELOG.md                # Record of significant doc changes
 └── docs/
@@ -24,17 +24,27 @@ nexus-docs-practice/
     │   │   └── PERSONAS.md     # User personas for spec user stories
     │   └── specs/              # Feature specs organized by domain
     │       ├── _template/
+    │       │   ├── SPEC.md
+    │       │   └── PROJECT_PLAN.md
     │       ├── usdx/
+    │       │   ├── SPEC.md
+    │       │   └── PROJECT_PLAN.md
     │       ├── zkvm/
+    │       │   ├── SPEC.md
+    │       │   └── PROJECT_PLAN.md
     │       ├── prover-network/
+    │       │   ├── SPEC.md
+    │       │   └── PROJECT_PLAN.md
     │       ├── privacy/
+    │       │   ├── PROJECT_PLAN.md
+    │       │   └── erc5564/
+    │       │       └── SPEC.md
     │       └── governance/
+    │           ├── SPEC.md
+    │           └── PROJECT_PLAN.md
     ├── research/
-    │   ├── user-research/
-    │   │   └── USER_RESEARCH_INSIGHTS.md
-    │   ├── ux-research/
-    │   ├── competitive-research/
-    │   └── differentiation-research/
+    │   └── user-research/
+    │       └── USER_RESEARCH_INSIGHTS.md
     ├── architecture/
     │   └── decisions/          # Architecture Decision Records (ADRs)
     └── ai-context/
@@ -89,11 +99,56 @@ BACKLOG → SCOPING → SCHEDULING → DRAFT → APPROVED → STARTED → SHIPPE
 4. Add it to `PRODUCT_MAP.md` under the correct product section.
 5. Do not change status to `APPROVED` without team sign-off.
 
+**Approval is recorded in the spec itself.** When a spec is ready for
+approval, both the product lead and engineering lead must add their handle
+and date to the `Approved by` fields in the spec header. A spec is not
+`APPROVED` until both fields are filled. Approval happens via PR — the
+approving engineer and product lead both approve the PR, and the status
+field is updated to `APPROVED` in the same commit.
+
 **Every spec must include:**
 - Problem statement
 - User stories referencing personas from `PERSONAS.md`
 - Invariants it must not violate (cross-reference `CONSTRAINTS.md`)
 - Open questions and blocking decisions
+
+### Spec → Linear Handoff
+
+Once a spec reaches `APPROVED` status, the project lead converts the
+functional requirements into Linear tickets. The following conventions apply:
+
+- Every Linear ticket created from a spec must include a link to the spec
+  file in the ticket description.
+- The spec is the source of truth. If a requirement changes, the spec is
+  updated first — then the ticket is updated to match.
+- The spec `Linear:` header field must be updated with the Linear project
+  link before or at the time tickets are created.
+- Ticket granularity is at the discretion of the project lead, but each
+  ticket should map to one or more Functional Requirements (FR-NNN) from
+  the spec.
+- When all tickets in the Linear project are complete, the spec owner
+  verifies the Acceptance Requirements (Section 6) before marking the
+  spec `SHIPPED`.
+
+---
+
+## The Project Plan
+
+Every product has a paired `PROJECT_PLAN.md` alongside its `SPEC.md`.
+The project plan is the cross-team sequencing document — it tracks
+workstreams, dependencies, milestones, and risks that span beyond
+engineering. The engineering task table within it is a sequencing
+reference only; the authoritative task list lives in Linear.
+
+**Ownership:**
+- The project plan as a whole is owned by the product lead.
+- The Engineering Tasks table is owned and maintained by the project lead
+  and spec owner.
+- Non-engineering workstream rows are owned by the product lead.
+
+**When to create one:** At the same time as the spec, when the work enters
+`SCOPING` status. It does not need to be complete when the spec is `DRAFT`
+— but it must be populated before the spec reaches `APPROVED`.
 
 ---
 
@@ -109,14 +164,8 @@ BACKLOG → SCOPING → SCHEDULING → DRAFT → APPROVED → STARTED → SHIPPE
 
 ## Research Documents
 
-All research lives under `docs/research/`. There are four sections:
-
-| Section | Path | Use For |
-|---------|------|---------|
-| User Research | `docs/research/user-research/` | Interview findings, survey data, usability insights |
-| UX Research | `docs/research/ux-research/` | Interaction patterns, flows, usability testing |
-| Competitive Research | `docs/research/competitive-research/` | Competitor analysis, market landscape |
-| Differentiation Research | `docs/research/differentiation-research/` | Positioning, moats, unique value props |
+All user research lives under `docs/research/user-research/`. User research
+links to the specs it informed.
 
 Research docs do not go through the spec status lifecycle. Use a simple header block:
 

@@ -3,7 +3,12 @@
 **Status:** Shipped
 **Owner:** @alec
 **Last Updated:** 2026-01-20
+**Approved by (Product):** —
+**Approved by (Engineering):** —
+**Linear:** —
+**Figma:** —
 **ADRs:** [ADR-002 — Variable Yield Mechanism](../../../architecture/decisions/ADR-002-variable-yield-mechanism.md)
+**Related Research:** —
 **Related Specs:** [USDX Core](./SPEC.md)
 
 ---
