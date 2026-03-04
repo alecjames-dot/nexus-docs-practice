@@ -24,7 +24,7 @@
 | Document | Owner | Description |
 |----------|-------|-------------|
 | nexus/strategy/ | @Daniel | Mission and north star |
-| [ROADMAP.md](docs/product/ROADMAP.md) | @alec | Phase-by-phase delivery plan |
+| [ROADMAP.md](docs/product/ROADMAP.md) | @Gordon | Phase-by-phase delivery plan |
 | [GUIDELINES.md](GUIDELINES.md) | @alec | Doc system conventions, status lifecycle, naming rules |
 | [LAUNCH_CALENDAR.md](LAUNCH_CALENDAR.md) | @alec | Product planning board and launch date tracker. Owned by product. |
 
