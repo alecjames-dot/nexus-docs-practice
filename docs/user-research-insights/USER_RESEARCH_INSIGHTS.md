@@ -4,6 +4,11 @@
 
 This document aggregates key findings from user interviews, surveys, and usability studies. It is a living document — update it after each research round.
 
+**INTENTION OF THIS DOCUMENT IS TO BE JUSTIFY ASSUMPTIONS IN SPEC, AND ALLOW LEADERS/ENGINEERS TO JUSTIFY DECISIONS OR ACCEPT THEM ASYNC.
+
+STILL TO DO:
+-- FORMAT THIS MOST EFFECTIVELY (LISTING SOME KEY ASSUMPTIONS BY PRODUCT AND HOW THEY ARE VALIDATED + NEW INSIGHTS**
+
 ---
 
 ## Summary of Key Themes
