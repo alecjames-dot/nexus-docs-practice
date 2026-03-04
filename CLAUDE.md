@@ -1,55 +1,61 @@
-# Nexus — AI Agent Briefing
+<briefing>
 
-**ONLY INCLUDE INSTRUCTIONS HERE -- INSTRUCT THE AI HOW TO USE THIS DIRECTORY.
-FORMAT IN XML --> use claude to do this
-**
+  <context-acquisition>
+    <instruction>Before taking any action, acquire context in this order.</instruction>
+    <step order="1" file="PRODUCT_MAP.md">Read to determine the current status of any document before referencing or acting on it.</step>
+    <step order="2" file="GLOSSARY.md">Read for definitions of all domain terms used in specs and discussions.</step>
+    <step order="3" file="docs/product/specs/{product}/SPEC.md">Read the relevant spec for the product area you are working in.</step>
+  </context-acquisition>
 
-## What Is Nexus
+  <repo-map>
+    <path location="PRODUCT_MAP.md">Canonical status index for all documents. Always read first.</path>
+    <path location="docs/product/specs/">Feature specs organized by product: nexus-mainnet, nexus-exchange, usdx, zkvm.</path>
+    <path location="docs/product/ROADMAP.md">Phase-by-phase delivery plan.</path>
+    <path location="docs/user-research-insights/">User research findings.</path>
+    <path location="GLOSSARY.md">Definitions for all domain terms.</path>
+    <path location=".github/pull_request_template.md">PR template with spec checklist.</path>
+  </repo-map>
 
-Nexus is a spot and perpetual futures exchange built for the era of Verifiable Finance. Every trade on the Nexus Exchange is provable — the purpose-built Exchange blockchain generates validity proofs for every state transition, so execution can be verified without trusting an operator. Nexus competes with the best centralised exchanges — Binance, Bybit, Coinbase, Hyperliquid — offering CEX-grade performance with non-custodial, trustless execution. USDX is the Exchange's native margin currency.
+  <status-lifecycle>
+    <instruction>The status in PRODUCT_MAP.md is the canonical source of truth. Do not infer status from the document itself.</instruction>
+    <status name="BACKLOG">Not yet shaped. Do not act on.</status>
+    <status name="SCOPING">Being sized and estimated. Do not build to.</status>
+    <status name="SCHEDULING">Prioritized, resources committed. Do not build to.</status>
+    <status name="DRAFT">Work in progress. Not approved. Do not build to without explicit team sign-off.</status>
+    <status name="APPROVED">Stable. Safe to implement.</status>
+    <status name="STARTED">In active development.</status>
+    <status name="SHIPPED">Live in production. Treat as a historical record — do not modify.</status>
+    <status name="DEPRECATED">Superseded or abandoned. Do not reference under any circumstances.</status>
+  </status-lifecycle>
 
----
+  <rules>
+    <rule id="1">Do not generate code or specs for any document with DRAFT status without explicit team sign-off.</rule>
+    <rule id="2">Do not reference or build to any DEPRECATED document under any circumstances.</rule>
+    <rule id="3">If a spec does not exist for what you are building, write one before writing any code.</rule>
+    <rule id="4">Any time you add, move, or deprecate a document, update PRODUCT_MAP.md in the same commit.</rule>
+    <rule id="5">A spec is not APPROVED until both the product lead and engineering lead have added their handle and date to the Approved by fields in the spec header.</rule>
+  </rules>
 
-## Monorepo Map
+  <invariants>
+    <instruction>These are non-negotiable. Flag any code, spec, or design that contradicts them immediately — do not proceed silently.</instruction>
+    <invariant id="1" name="usdx-yield-source">USDX yield must be sourced exclusively from on-chain protocol revenue. It must never derive from new token issuance, treasury drawdowns, or off-chain yield sources.</invariant>
+    <invariant id="2" name="proof-input-privacy">Proof generation must never expose user input data to the prover network. Provers receive only public inputs and the proof task — raw user transactions are never transmitted.</invariant>
+    <invariant id="3" name="yield-determinism">Yield calculations must be deterministic and fully auditable on-chain. Any calculation that depends on off-chain state or non-reproducible inputs is prohibited.</invariant>
+  </invariants>
 
-| Directory | Contents |
-|-----------|----------|
-| `docs/product/specs/` | Feature specs, organized by product (nexus-mainnet, nexus-exchange, usdx, zkvm) |
-| `docs/ai-context/` | GLOSSARY.md, CONSTRAINTS.md — always read these before generating code or specs |
-| `docs/user-research-insights/` | User research findings |
-| `docs/product/` | ROADMAP.md |
-| `.github/` | PR template with spec checklist |
+  <spec-conventions>
+    <required-sections>
+      <section>Context (Investment Case, Opportunity Cost, Effort)</section>
+      <section>Summary of Features</section>
+      <section>Invariants the spec must not violate</section>
+      <section>Open questions and blocking decisions</section>
+    </required-sections>
+    <linear-handoff>
+      <rule>Every Linear ticket created from a spec must link to the spec file.</rule>
+      <rule>The spec is the source of truth — update the spec first, then the ticket.</rule>
+      <rule>Update the spec's Linear: header field before or when tickets are created.</rule>
+      <rule>Mark a spec SHIPPED only after the spec owner verifies all Acceptance Requirements.</rule>
+    </linear-handoff>
+  </spec-conventions>
 
----
-
-## Key Invariants — Never Violate These
-
-These are non-negotiable. Any code, spec, or design that contradicts them must be flagged immediately.
-
-1. **USDX yield source**: USDX yield is always and only sourced from on-chain protocol revenue. It must never derive from new token issuance, treasury drawdowns, or off-chain yield sources.
-
-2. **Proof input privacy**: Proof generation must never expose user input data to the prover network. Provers receive only the public inputs and the proof task; raw user transactions are never transmitted.
-
-3. **Yield determinism**: Yield calculations must be deterministic and fully auditable on-chain. Any yield calculation that depends on off-chain state or non-reproducible inputs is prohibited.
-
----
-
-## Before Writing Any Code
-
-Read the relevant spec in `docs/product/specs/` and check [PRODUCT_MAP.md](./PRODUCT_MAP.md) for current status. Do not build to a spec with `DRAFT` status without explicit team sign-off. Do not build to a `DEPRECATED` spec under any circumstances.
-
-If a spec does not exist for what you are building, write one before writing code.
-
----
-
-## Current Focus Areas
-
-_To be updated by the product team._
-
----
-
-## Key Reference Files
-
-- [PRODUCT_MAP.md](./PRODUCT_MAP.md) — canonical status of all specs
-- [GLOSSARY.md](./docs/ai-context/GLOSSARY.md) — definitions for all domain terms
-- [CONSTRAINTS.md](./docs/ai-context/CONSTRAINTS.md) — non-negotiable constraints by category
+</briefing>

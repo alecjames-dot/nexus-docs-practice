@@ -12,9 +12,19 @@
 
 ---
 
-## 1. Problem Statement
+## 1. Context
 
-One paragraph. Why does this exist? What breaks without it?
+### Investment Case
+
+Why is this worth building? What outcome does it drive and for whom?
+
+### Opportunity Cost
+
+What are we not building by doing this? What is the cost of delay?
+
+### Effort
+
+High-level size estimate: S / M / L / XL. Note key dependencies or constraints that affect scope.
 
 ---
 
@@ -26,11 +36,14 @@ One paragraph. Why does this exist? What breaks without it?
 
 ---
 
-## 3. User Stories
+## 3. Summary of Features
 
-> As a [persona], I want [action] so that [outcome].
+High-level overview of the capabilities this spec delivers.
 
-List 2–5 stories maximum. If you have more than 5, the feature scope is too large — split it.
+| Feature | Description |
+|---------|-------------|
+| [Feature name] | [One-line description] |
+| [Feature name] | [One-line description] |
 
 ---
 
@@ -44,9 +57,16 @@ List 2–5 stories maximum. If you have more than 5, the feature scope is too la
 
 ## 5. Non-Functional Requirements
 
-- **NFR-001:** [Performance] The system SHALL [metric at percentile].
-- **NFR-002:** [Security] The system SHALL NOT [prohibited behavior].
-- **NFR-003:** [Availability] The system SHALL maintain [uptime target].
+- **NFR-001:** [Security] The system SHALL NOT [prohibited behavior].
+- **NFR-002:** [Availability] The system SHALL maintain [uptime target].
+
+### Performance Requirements
+
+| Requirement | Metric | Target | Percentile | Conditions |
+|-------------|--------|--------|------------|------------|
+| Latency | [e.g. API response time] | < X ms | p99 | [e.g. under Y concurrent users] |
+| Throughput | [e.g. transactions per second] | X TPS | — | steady state |
+| Error rate | [e.g. failed requests] | < X% | — | under peak load |
 
 ---
 
@@ -69,8 +89,7 @@ List 2–5 stories maximum. If you have more than 5, the feature scope is too la
 
 - [ ] **AC-DOC-001:** PRODUCT_MAP.md updated to reflect `Shipped` status.
 - [ ] **AC-DOC-002:** CLAUDE.md updated if any invariants or module boundaries changed.
-- [ ] **AC-DOC-003:** CHANGELOG entry added with date and summary.
-- [ ] **AC-DOC-004:** Any ADRs made during implementation are merged and linked above.
+- [ ] **AC-DOC-003:** Any ADRs made during implementation are merged and linked above.
 
 ### 6d. Definition of Done
 
@@ -81,23 +100,29 @@ All AC items above are checked AND:
 
 ---
 
-## 7. Technical Design Notes
-
-High-level approach. Links to detailed RFCs or ADRs for deeper dives.
-
----
-
-## 8. Open Questions
+## 7. Open Questions
 
 - [ ] [Question] — Owner: @handle — Resolve by: YYYY-MM-DD
 
 ---
 
-## 9. Success Metrics
+## 8. Success Metrics
 
 | Metric | Target | Measurement Method |
 |--------|--------|--------------------|
 | [metric] | [target] | [how to measure] |
+
+---
+
+## 9. Sign-off
+
+| Team | Reviewer | Status | Date |
+|------|----------|--------|------|
+| Product | @handle | Pending | — |
+| Engineering | @handle | Pending | — |
+| Security | @handle | Pending | — |
+| Design | @handle | Pending | — |
+| Legal / Compliance | @handle | Pending | — |
 
 ---
 

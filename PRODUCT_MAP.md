@@ -6,18 +6,27 @@
 
 ## Status Legend
 
-**Add Product PLanning Board in here somewhere**
-
 | Badge | Meaning |
 |-------|---------|
-| `DRAFT` | Work in progress. Not approved for implementation. Do not build to this. |
 | `BACKLOG` | Ideas for initiatives to be shaped and validated. Not in Linear. |
 | `SCOPING` | Initiative is being estimated at a high level to determine where it should land on the roadmap and determine trade-offs. |
 | `SCHEDULING` | Initiative is prioritized on the roadmap and resource capacity committed to by engineering and other dependent teams. In Linear::Planned. |
-| `STARTED` | Work has started. In Linear::In Progress. |
+| `DRAFT` | Work in progress. Not approved for implementation. Do not build to this. |
 | `APPROVED` | Approved for implementation. Stable spec. |
+| `STARTED` | Work has started. In Linear::In Progress. |
 | `SHIPPED` | Feature is live in production. Spec is now a historical record. |
 | `DEPRECATED` | Superseded or abandoned. Do not reference or build to this. |
+
+---
+
+## Product Planning Board
+
+| Spec | `BACKLOG` | `SCOPING` | `SCHEDULING` | `DRAFT` | `APPROVED` | `STARTED` | `SHIPPED` |
+|------|:---------:|:---------:|:------------:|:-------:|:----------:|:---------:|:---------:|
+| [Nexus Mainnet](docs/product/specs/nexus-mainnet/SPEC.md) | | | | ● | | | |
+| [Nexus Exchange](docs/product/specs/nexus-exchange/SPEC.md) | | | | ● | | | |
+| [USDX](docs/product/specs/usdx/SPEC.md) | | | | ● | | | |
+| [zkVM](docs/product/specs/zkvm/SPEC.md) | | | | ● | | | |
 
 ---
 
@@ -27,8 +36,7 @@
 |----------|-------|-------------|
 | nexus/strategy/ | @Daniel | Mission and north star |
 | [ROADMAP.md](docs/product/ROADMAP.md) | @Gordon | Phase-by-phase delivery plan |
-| [GUIDELINES.md](GUIDELINES.md) | @alec | Doc system conventions, status lifecycle, naming rules |
-| [LAUNCH_CALENDAR.md](LAUNCH_CALENDAR.md) | @alec | Product planning board and launch date tracker. Owned by product. |
+| [README.md](README.md) | @alec | Repo overview, doc system conventions, status lifecycle, naming rules |
 
 ---
 
@@ -36,9 +44,8 @@
 
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [CLAUDE.md](CLAUDE.md) | @alec | AI agent briefing — invariants, monorepo map, current focus |
-| [GLOSSARY.md](docs/ai-context/GLOSSARY.md) | @alec | Domain term definitions |
-| [CONSTRAINTS.md](docs/ai-context/CONSTRAINTS.md) | @alec | Non-negotiable constraints by category |
+| [CLAUDE.md](CLAUDE.md) | @alec | AI agent briefing — context acquisition instructions and invariants |
+| [GLOSSARY.md](GLOSSARY.md) | @alec | Domain term definitions |
 
 ---
 
