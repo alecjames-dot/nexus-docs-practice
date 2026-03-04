@@ -4,6 +4,8 @@
 
 This document explains how to work within the Nexus docs system — how documents are structured, how to add or update content, and the conventions that keep things consistent.
 
+**INTEGRATE INTO README**
+
 ---
 
 ## Directory Structure
