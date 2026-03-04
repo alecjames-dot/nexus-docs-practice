@@ -1,5 +1,7 @@
 # Nexus — AI Agent Briefing
 
+**ONLY INCLUDE INSTRUCTIONS HERE -- INSTRUCT THE AI HOW TO USE THIS DIRECTORY**
+
 ## What Is Nexus
 
 Nexus is a spot and perpetual futures exchange built for the era of Verifiable Finance. Every trade on the Nexus Exchange is provable — the purpose-built Exchange blockchain generates validity proofs for every state transition, so execution can be verified without trusting an operator. Nexus competes with the best centralised exchanges — Binance, Bybit, Coinbase, Hyperliquid — offering CEX-grade performance with non-custodial, trustless execution. USDX is the Exchange's native margin currency.
