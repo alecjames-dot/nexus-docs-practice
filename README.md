@@ -6,10 +6,10 @@ Product documentation for the Nexus protocol — a layer 1 blockchain built arou
 
 | Section | Path | Purpose |
 |---------|------|---------|
-| Product specs | `docs/product/specs/` | Feature specs by domain |
-| Research | `docs/research/` | User research insights |
+| Product specs | `docs/product/specs/` | Feature specs by product |
+| User research | `docs/user-research-insights/` | Research findings |
 | AI context | `docs/ai-context/` | Glossary and constraints for AI agents |
-| Launch calendar | `LAUNCH_CALENDAR.md` | Expected launch dates by product |
+| Launch calendar | `LAUNCH_CALENDAR.md` | Product planning board and launch dates |
 | Product map | `PRODUCT_MAP.md` | Canonical status of all docs |
 
 ## Quick Start
@@ -21,6 +21,6 @@ Product documentation for the Nexus protocol — a layer 1 blockchain built arou
 ## Products
 
 - **Nexus Mainnet** — zkVM-based L1, validity proofs on every block
+- **Nexus Exchange** — Exchange application
 - **zkVM** — Zero-knowledge virtual machine with EVM compatibility
-- **Prover Network** — Decentralized prover set with liveness slashing
 - **USDX** — Native yield-bearing stablecoin sourced from on-chain revenue

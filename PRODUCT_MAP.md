@@ -23,7 +23,7 @@
 
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [VISION.md](docs/product/VISION.md) | @alec | Mission, pillars, north star metric |
+| [VISION.md](docs/product/VISION.md) | @alec | Mission and north star |
 | [ROADMAP.md](docs/product/ROADMAP.md) | @alec | Phase-by-phase delivery plan |
 | [GUIDELINES.md](GUIDELINES.md) | @alec | Doc system conventions, status lifecycle, naming rules |
 | [LAUNCH_CALENDAR.md](LAUNCH_CALENDAR.md) | @alec | Product planning board and launch date tracker. Owned by product. |
@@ -42,11 +42,9 @@
 
 ## Research
 
-User research lives here and links to the specs it informed.
-
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [User Research Insights](docs/research/user-research/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
+| [User Research Insights](docs/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
 
 ---
 
@@ -58,13 +56,13 @@ User research lives here and links to the specs it informed.
 |------|-------|--------|--------------|--------------|
 | — | — | — | — | — |
 
-### USDX
+### Nexus Exchange
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
 | — | — | — | — | — |
 
-### Nexus Exchange
+### USDX
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|

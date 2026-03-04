@@ -10,10 +10,9 @@ Nexus is a layer 1 blockchain built around a zkVM (zero-knowledge virtual machin
 
 | Directory | Contents |
 |-----------|----------|
-| `docs/product/specs/` | Feature specs, organized by domain (zkVM, prover-network, usdx, privacy, governance) |
-| `docs/product/personas/` | User persona definitions referenced in spec user stories |
+| `docs/product/specs/` | Feature specs, organized by product (nexus-mainnet, nexus-exchange, usdx, zkvm) |
 | `docs/ai-context/` | GLOSSARY.md, CONSTRAINTS.md — always read these before generating code or specs |
-| `docs/research/` | User research, UX research, competitive and differentiation research |
+| `docs/user-research-insights/` | User research findings |
 | `docs/product/` | VISION.md, ROADMAP.md |
 | `.github/` | PR template with spec checklist |
 
@@ -25,13 +24,9 @@ These are non-negotiable. Any code, spec, or design that contradicts them must b
 
 1. **USDX yield source**: USDX yield is always and only sourced from on-chain protocol revenue. It must never derive from new token issuance, treasury drawdowns, or off-chain yield sources.
 
-2. **Privacy + compliance pairing**: All USDX transfers must implement both stealth address privacy (ERC-5564) AND the compliance selective disclosure layer — never one without the other. A transfer that is private but not compliant, or compliant but not private, is a spec violation.
+2. **Proof input privacy**: Proof generation must never expose user input data to the prover network. Provers receive only the public inputs and the proof task; raw user transactions are never transmitted.
 
-3. **Proof input privacy**: Proof generation must never expose user input data to the prover network. Provers receive only the public inputs and the proof task; raw user transactions are never transmitted.
-
-4. **Burn authority**: USDX supply is not programmatically burnable in v1. Burn authority is governance-only, established by ADR-003. No contract, protocol module, or EOA may burn USDX unilaterally.
-
-5. **Yield determinism**: Yield calculations must be deterministic and fully auditable on-chain. Any yield calculation that depends on off-chain state or non-reproducible inputs is prohibited.
+3. **Yield determinism**: Yield calculations must be deterministic and fully auditable on-chain. Any yield calculation that depends on off-chain state or non-reproducible inputs is prohibited.
 
 ---
 
@@ -45,15 +40,12 @@ If a spec does not exist for what you are building, write one before writing cod
 
 ## Current Focus Areas
 
-- **zkVM**: Proof aggregation performance and settlement layer integration
-- **Prover Network**: Economic incentives, liveness slashing (v1 scope per ADR-004)
-- **USDX Compliance Layer**: Selective disclosure + ERC-5564 integration (REVIEW status — awaiting legal sign-off)
+_To be updated by the product team._
 
 ---
 
 ## Key Reference Files
 
-- [PRODUCT_MAP.md](./PRODUCT_MAP.md) — canonical status of all specs and ADRs
+- [PRODUCT_MAP.md](./PRODUCT_MAP.md) — canonical status of all specs
 - [GLOSSARY.md](./docs/ai-context/GLOSSARY.md) — definitions for all domain terms
 - [CONSTRAINTS.md](./docs/ai-context/CONSTRAINTS.md) — non-negotiable constraints by category
-- [PERSONAS.md](./docs/product/personas/PERSONAS.md) — user personas for spec user stories

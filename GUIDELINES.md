@@ -18,33 +18,18 @@ nexus-docs-practice/
 ├── CHANGELOG.md                # Record of significant doc changes
 └── docs/
     ├── product/
-    │   ├── VISION.md           # Mission, pillars, north star metric
+    │   ├── VISION.md           # Mission and north star
     │   ├── ROADMAP.md          # Phase-by-phase delivery plan
-    │   ├── personas/
-    │   │   └── PERSONAS.md     # User personas for spec user stories
-    │   └── specs/              # Feature specs organized by domain
+    │   └── specs/              # Feature specs organized by product
     │       ├── _template/
     │       │   ├── SPEC.md
     │       │   └── PROJECT_PLAN.md
+    │       ├── nexus-mainnet/
+    │       ├── nexus-exchange/
     │       ├── usdx/
-    │       │   ├── SPEC.md
-    │       │   └── PROJECT_PLAN.md
-    │       ├── zkvm/
-    │       │   ├── SPEC.md
-    │       │   └── PROJECT_PLAN.md
-    │       ├── prover-network/
-    │       │   ├── SPEC.md
-    │       │   └── PROJECT_PLAN.md
-    │       ├── privacy/
-    │       │   ├── PROJECT_PLAN.md
-    │       │   └── erc5564/
-    │       │       └── SPEC.md
-    │       └── governance/
-    │           ├── SPEC.md
-    │           └── PROJECT_PLAN.md
-    ├── research/
-    │   └── user-research/
-    │       └── USER_RESEARCH_INSIGHTS.md
+    │       └── zkvm/
+    ├── user-research-insights/
+    │   └── USER_RESEARCH_INSIGHTS.md
     └── ai-context/
         ├── GLOSSARY.md
         └── CONSTRAINTS.md
@@ -89,7 +74,7 @@ BACKLOG → SCOPING → SCHEDULING → DRAFT → APPROVED → STARTED → SHIPPE
 ## Writing a Spec
 
 1. Copy `docs/product/specs/_template/SPEC.md`.
-2. Place it in the correct domain folder (e.g., `docs/product/specs/usdx/`).
+2. Place it in the correct product folder (e.g., `docs/product/specs/usdx/`).
 3. Set status to `DRAFT` in the file header.
 4. Add it to `PRODUCT_MAP.md` under the correct product section.
 5. Do not change status to `APPROVED` without team sign-off.
@@ -103,7 +88,7 @@ field is updated to `APPROVED` in the same commit.
 
 **Every spec must include:**
 - Problem statement
-- User stories referencing personas from `PERSONAS.md`
+- User stories
 - Invariants it must not violate (cross-reference `CONSTRAINTS.md`)
 - Open questions and blocking decisions
 
@@ -149,10 +134,9 @@ reference only; the authoritative task list lives in Linear.
 
 ## Research Documents
 
-All user research lives under `docs/research/user-research/`. User research
-links to the specs it informed.
-
-Research docs do not go through the spec status lifecycle. Use a simple header block:
+User research insights live under `docs/user-research-insights/`. Research
+docs link to the specs they informed and do not go through the spec status
+lifecycle. Use a simple header block:
 
 ```
 # [Title]
@@ -180,7 +164,7 @@ AI agents must not generate code or specs for `DRAFT` documents without explicit
 |------|-----------|---------|
 | Specs | `SCREAMING-KEBAB.md` | `YIELD-SPEC.md` |
 | Research docs | `SCREAMING-KEBAB.md` | `USER_RESEARCH_INSIGHTS.md` |
-| Directories | `kebab-case` | `prover-network/` |
+| Directories | `kebab-case` | `nexus-mainnet/` |
 
 ---
 
