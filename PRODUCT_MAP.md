@@ -50,6 +50,8 @@
 
 ## Active Specs
 
+**Intention here is to have ratified, approved specs that are ready for development**
+
 ### Nexus Mainnet
 
 | Spec | Owner | Status | Last Updated | Project Plan |
@@ -77,6 +79,8 @@
 ---
 
 ## Open Drafts
+
+**Intention here is to have specs in the 'scoping' and 'specified' statuses, for a lead engineer to estimate etc.**
 
 | Spec | Owner | Blocking Question |
 |------|-------|-------------------|
