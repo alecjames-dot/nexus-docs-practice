@@ -1,7 +1,7 @@
 # Nexus — AI Agent Briefing
 
 **ONLY INCLUDE INSTRUCTIONS HERE -- INSTRUCT THE AI HOW TO USE THIS DIRECTORY.
-FORMAT IN XTML
+FORMAT IN XML --> use claude to do this
 **
 
 ## What Is Nexus
