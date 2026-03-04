@@ -1,4 +1,4 @@
-# [Feature Name] Spec
+# USDX Spec
 
 **Status:** DRAFT | SCOPING | SCHEDULING | APPROVED | STARTED | SHIPPED | DEPRECATED
 **Owner:** @handle

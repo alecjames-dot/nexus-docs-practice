@@ -23,7 +23,7 @@
 
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [VISION.md](docs/product/VISION.md) | @alec | Mission and north star |
+| nexus/strategy/ | @Daniel | Mission and north star |
 | [ROADMAP.md](docs/product/ROADMAP.md) | @alec | Phase-by-phase delivery plan |
 | [GUIDELINES.md](GUIDELINES.md) | @alec | Doc system conventions, status lifecycle, naming rules |
 | [LAUNCH_CALENDAR.md](LAUNCH_CALENDAR.md) | @alec | Product planning board and launch date tracker. Owned by product. |
@@ -54,25 +54,25 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| — | — | — | — | — |
+| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | — | DRAFT | 2026-03-03 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
 
 ### Nexus Exchange
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| — | — | — | — | — |
+| [SPEC.md](docs/product/specs/nexus-exchange/SPEC.md) | — | DRAFT | 2026-03-03 | [PROJECT_PLAN.md](docs/product/specs/nexus-exchange/PROJECT_PLAN.md) |
 
 ### USDX
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| — | — | — | — | — |
+| [SPEC.md](docs/product/specs/usdx/SPEC.md) | — | DRAFT | 2026-03-03 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
 
 ### zkVM
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| — | — | — | — | — |
+| [SPEC.md](docs/product/specs/zkvm/SPEC.md) | — | DRAFT | 2026-03-03 | [PROJECT_PLAN.md](docs/product/specs/zkvm/PROJECT_PLAN.md) |
 
 ---
 

@@ -2,29 +2,53 @@
 
 Canonical definitions for Nexus domain terminology. When in doubt, these definitions govern. If a term is used in a spec with a meaning that conflicts with this glossary, the glossary takes precedence and the spec must be updated.
 
-Last updated: 2026-02-27 | Owner: @alec
+Last updated: 2026-03-03 | Owner: @alec
 
 ---
 
+## Nexus Exchange
+
+The Nexus trading venue. A spot and perpetual futures exchange that competes with the best centralised exchanges in the world — Binance, Bybit, Coinbase, Hyperliquid. The Exchange offers CEX-grade performance with non-custodial, trustless execution: assets are held natively, there is no counterparty risk, and every trade is provable. The Exchange is the product. The blockchain, zkVM architecture, and USDX are features that make it work.
+
+Do not describe the Exchange as a DEX, decentralised exchange, DeFi exchange, or trading protocol.
+
+## Exchange Blockchain
+
+The purpose-built blockchain that powers the Nexus Exchange. The blockchain exists to make the Exchange fast, verifiable, and composable — it is not a separate product. Every state transition on the Exchange blockchain produces a validity proof, so execution is verifiable without trusting an operator. Also referred to as "the chain."
+
+Do not describe as L1, L2, ZK L2, ZK rollup, or as a product separate from the Exchange. Do not use the framing "the L1 and the Exchange" or "Exchange built on the L1."
+
 ## zkVM
 
-A zero-knowledge virtual machine that executes transactions and generates cryptographic validity proofs for every state transition. On Nexus, the zkVM is EVM-compatible, meaning developers can write application logic in Solidity or other EVM languages while every execution is automatically wrapped in a proof. The zkVM does not reveal the contents of user transactions to the prover network — only public inputs and the proof task are exposed. See: [zkVM Spec](../product/specs/zkvm/SPEC.md).
+A zero-knowledge virtual machine that executes transactions and generates cryptographic validity proofs for every state transition. On the Exchange blockchain, the zkVM is EVM-compatible — every trade is automatically proven, so execution can be verified without trusting an operator. The zkVM does not reveal the contents of user transactions to the prover network — only public inputs and the proof task are exposed.
+
+ZK is infrastructure, not a headline. Lead with the benefit — verifiable execution — not the proof system.
+
+Do not describe as "ZK exchange," "ZK-powered," or "ZK-first." See: [zkVM Spec](../product/specs/zkvm/SPEC.md).
 
 ## Prover Network
 
-The decentralized network of nodes (called Provers) that receive proof generation tasks from the Nexus sequencer and submit validity proofs to the settlement layer. Provers are economically incentivized via proof fees and subject to slashing for liveness failures. The prover network is permissionless in Phase 2 — any operator meeting the hardware and staking requirements may register. See: [Prover Network Spec](../product/specs/prover-network/SPEC.md).
+The network of nodes (called Provers) that receive proof generation tasks from the Nexus sequencer and submit validity proofs to the settlement layer, making every Exchange state transition independently verifiable. Provers are economically incentivized via proof fees and subject to slashing for liveness failures. The prover network becomes permissionless in Phase 2 — any operator meeting the hardware and staking requirements may register.
 
 ## USDX
 
-Nexus's native yield-bearing stablecoin, pegged 1:1 to USD and collateralized by on-chain reserves. USDX holders earn yield derived from on-chain protocol revenue — not from new token issuance. In v1, USDX supply can only be reduced through governance-authorized burns; there is no programmatic burn path. All USDX transfers must implement both ERC-5564 stealth address privacy and the compliance selective disclosure layer simultaneously. See: [USDX Spec](../product/specs/usdx/SPEC.md).
+The Nexus Exchange's native margin and quote currency, pegged 1:1 to USD. USDX earns yield on idle capital and is composable with DeFi. USDX is an exchange primitive — it should be described in the context of what makes the Exchange work well for traders, not as a standalone stablecoin protocol.
+
+USDX yield is derived from on-chain protocol revenue — not from new token issuance. In v1, USDX supply can only be reduced through governance-authorized burns; there is no programmatic burn path. All USDX transfers must implement both ERC-5564 stealth address privacy and the compliance selective disclosure layer simultaneously.
+
+Do not describe as "the USDX stablecoin protocol," "our yield product," or "DeFi-native stablecoin." See: [USDX Spec](../product/specs/usdx/SPEC.md).
 
 ## Verifiable Finance
 
-The design philosophy underlying Nexus: financial applications should produce cryptographic proofs of correctness that any party can verify without trusting the operator, auditor, or platform. Verifiable finance is distinct from transparent finance (where state is visible but not proven) and from trusted finance (where correctness is asserted by a counterparty). The north star is financial state transitions that are provably correct by construction, not by audit.
+The era of open, programmable, verifiable financial markets. Financial applications in the Verifiable Finance era produce cryptographic proofs of correctness that any party can verify without trusting the operator, auditor, or platform. Nexus is building for the Verifiable Finance era.
+
+Verifiable Finance is not a brand, product name, or tagline for the Exchange. It names the era and provides context for why Nexus matters.
+
+Do not say: "the Verifiable Finance platform," "Verifiable Finance by Nexus," "our VF product." Verifiable finance is distinct from transparent finance (where state is visible but not proven) and from trusted finance (where correctness is asserted by a counterparty).
 
 ## USDX Yield
 
-The variable return earned by USDX holders, sourced exclusively from on-chain protocol revenue generated by the Nexus network (proof fees, sequencer fees, and future protocol-owned revenue streams). USDX yield is never sourced from token issuance, treasury drawdowns, or off-chain instruments. The yield rate is updated every block via an on-chain revenue index and distributed pro-rata to USDX holders. See: [YIELD-SPEC](../product/specs/usdx/YIELD-SPEC.md), [ADR-002](../architecture/decisions/ADR-002-variable-yield-mechanism.md).
+The variable return earned by USDX holders, sourced exclusively from on-chain protocol revenue generated by the Nexus network (proof fees, sequencer fees, and future protocol-owned revenue streams). USDX yield is never sourced from token issuance, treasury drawdowns, or off-chain instruments. The yield rate is updated every block via an on-chain revenue index and distributed pro-rata to USDX holders.
 
 ## Stealth Address
 
@@ -32,15 +56,15 @@ A cryptographic mechanism that allows a sender to generate a unique one-time add
 
 ## ERC-5564
 
-An Ethereum Improvement Proposal (and Nexus-adopted standard) that defines a protocol-level scheme for stealth address generation and recipient detection. ERC-5564 uses a dual-key scheme (spending key + viewing key) that allows recipients to scan for incoming transfers without exposing their identity to the network. Nexus adopted ERC-5564 in preference to a custom ECDH scheme following ADR-005. See: [ERC-5564 Spec](../product/specs/privacy/erc5564/SPEC.md).
+An Ethereum Improvement Proposal (and Nexus-adopted standard) that defines a protocol-level scheme for stealth address generation and recipient detection. ERC-5564 uses a dual-key scheme (spending key + viewing key) that allows recipients to scan for incoming transfers without exposing their identity to the network. Nexus adopted ERC-5564 in preference to a custom ECDH scheme.
 
 ## Selective Disclosure
 
-The capability for a USDX holder to cryptographically prove the details of one or more transactions to an authorized party (such as a regulator or compliance officer) without revealing those details to the general public. Selective disclosure on Nexus is implemented via viewing keys and zero-knowledge proofs of transaction validity. It is always paired with ERC-5564 stealth addresses — never implemented independently. See: [COMPLIANCE-SPEC](../product/specs/usdx/COMPLIANCE-SPEC.md).
+The capability for a USDX holder to cryptographically prove the details of one or more transactions to an authorized party (such as a regulator or compliance officer) without revealing those details to the general public. Selective disclosure on Nexus is implemented via viewing keys and zero-knowledge proofs of transaction validity. It is always paired with ERC-5564 stealth addresses — never implemented independently.
 
 ## Slashing
 
-The protocol mechanism by which a portion of a Prover's staked collateral is confiscated as a penalty for misbehavior. In v1, slashing applies only to liveness failures (a Prover failing to submit a proof within the required time window). Fault and fraud proof slashing — penalizing incorrect proofs — is deferred to v2 per ADR-004. Slashed funds are directed to the protocol treasury. See: [SLASHING-SPEC](../product/specs/prover-network/SLASHING-SPEC.md).
+The protocol mechanism by which a portion of a Prover's staked collateral is confiscated as a penalty for misbehavior. In v1, slashing applies only to liveness failures (a Prover failing to submit a proof within the required time window). Fault and fraud proof slashing — penalizing incorrect proofs — is deferred to v2. Slashed funds are directed to the protocol treasury.
 
 ## Prover
 
@@ -52,7 +76,7 @@ A node that participates in Nexus consensus by proposing and attesting to blocks
 
 ## Settlement Layer
 
-The Nexus L1 layer responsible for finalizing state transitions after validity proofs have been verified. When a Prover submits a proof to the settlement layer, the layer verifies the proof on-chain and, if valid, updates the canonical state root. The settlement layer is the source of truth for USDX balances, prover stakes, and all protocol state.
+The Exchange blockchain layer responsible for finalizing state transitions after validity proofs have been verified. When a Prover submits a proof to the settlement layer, the layer verifies the proof on-chain and, if valid, updates the canonical state root. The settlement layer is the source of truth for USDX balances, prover stakes, and all protocol state.
 
 ## Validity Proof
 
@@ -60,4 +84,4 @@ A cryptographic proof (specifically a SNARK on Nexus) that demonstrates a comput
 
 ## Compliance Layer
 
-The Nexus protocol component that enables selective disclosure for USDX transfers. The compliance layer works in conjunction with ERC-5564 stealth addresses: stealth addresses provide privacy from the public, while the compliance layer allows holders to reveal specific transaction details to authorized parties using viewing keys and zero-knowledge proofs. These two components are always deployed together on Nexus — the compliance layer without stealth addresses, or stealth addresses without the compliance layer, are both spec violations. See: [COMPLIANCE-SPEC](../product/specs/usdx/COMPLIANCE-SPEC.md).
+The Nexus protocol component that enables selective disclosure for USDX transfers. The compliance layer works in conjunction with ERC-5564 stealth addresses: stealth addresses provide privacy from the public, while the compliance layer allows holders to reveal specific transaction details to authorized parties using viewing keys and zero-knowledge proofs. These two components are always deployed together on Nexus — the compliance layer without stealth addresses, or stealth addresses without the compliance layer, are both spec violations.

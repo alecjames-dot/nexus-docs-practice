@@ -2,7 +2,7 @@
 
 ## What Is Nexus
 
-Nexus is a layer 1 blockchain built around a zkVM (zero-knowledge virtual machine) that generates validity proofs for every state transition, enabling provably correct financial applications without trusting an operator. Its mission is "verifiable finance" — improving the programmability, composability, and verifiability of financial primitives onchain. The protocol ships a decentralized prover network and USDX, a native yield-bearing stablecoin with a target yield of ~3.4% sourced exclusively from on-chain protocol revenue.
+Nexus is a spot and perpetual futures exchange built for the era of Verifiable Finance. Every trade on the Nexus Exchange is provable — the purpose-built Exchange blockchain generates validity proofs for every state transition, so execution can be verified without trusting an operator. Nexus competes with the best centralised exchanges — Binance, Bybit, Coinbase, Hyperliquid — offering CEX-grade performance with non-custodial, trustless execution. USDX is the Exchange's native margin currency.
 
 ---
 
@@ -13,7 +13,7 @@ Nexus is a layer 1 blockchain built around a zkVM (zero-knowledge virtual machin
 | `docs/product/specs/` | Feature specs, organized by product (nexus-mainnet, nexus-exchange, usdx, zkvm) |
 | `docs/ai-context/` | GLOSSARY.md, CONSTRAINTS.md — always read these before generating code or specs |
 | `docs/user-research-insights/` | User research findings |
-| `docs/product/` | VISION.md, ROADMAP.md |
+| `docs/product/` | ROADMAP.md |
 | `.github/` | PR template with spec checklist |
 
 ---

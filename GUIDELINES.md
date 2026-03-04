@@ -18,7 +18,6 @@ nexus-docs-practice/
 ├── CHANGELOG.md                # Record of significant doc changes
 └── docs/
     ├── product/
-    │   ├── VISION.md           # Mission and north star
     │   ├── ROADMAP.md          # Phase-by-phase delivery plan
     │   └── specs/              # Feature specs organized by product
     │       ├── _template/

@@ -20,7 +20,7 @@ Product documentation for the Nexus protocol — a layer 1 blockchain built arou
 
 ## Products
 
-- **Nexus Mainnet** — zkVM-based L1, validity proofs on every block
-- **Nexus Exchange** — Exchange application
-- **zkVM** — Zero-knowledge virtual machine with EVM compatibility
-- **USDX** — Native yield-bearing stablecoin sourced from on-chain revenue
+- **Nexus Exchange** — Spot and perpetual futures exchange; CEX-grade performance with non-custodial, trustless execution
+- **Exchange Blockchain** — Purpose-built Exchange blockchain; every state transition is proven
+- **zkVM** — Verifiable execution infrastructure; every trade is provable
+- **USDX** — The Exchange's native margin currency

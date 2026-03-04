@@ -1,4 +1,4 @@
-# [Feature Name] Spec
+# Nexus Exchange Spec
 
 **Status:** DRAFT | SCOPING | SCHEDULING | APPROVED | STARTED | SHIPPED | DEPRECATED
 **Owner:** @handle
