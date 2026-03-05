@@ -70,7 +70,7 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | DRAFT | 2026-01-11 | — |
+| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | DRAFT | 2026-01-11 | [PROJECT_PLAN.md](docs/product/specs/ico/PROJECT_PLAN.md) |
 
 ### zkVM
 
