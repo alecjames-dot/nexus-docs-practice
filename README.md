@@ -65,18 +65,19 @@ Any time you add, move, or deprecate a document, update `PRODUCT_MAP.md` in the 
 ## Status Lifecycle
 
 ```
-BACKLOG → SCOPING → SCHEDULING → DRAFT → APPROVED → STARTED → SHIPPED
-                                                              ↓
-                                                         DEPRECATED
+BACKLOG → DRAFT → SCOPING → SPECIFYING → APPROVED → SCHEDULING → STARTED → SHIPPED
+                                                                             ↓
+                                                                         DEPRECATED
 ```
 
 | Status | Meaning |
 |--------|---------|
 | `BACKLOG` | Ideas not yet shaped. Not in Linear. |
-| `SCOPING` | Being sized and estimated. |
-| `SCHEDULING` | Prioritized; resources committed. In Linear::Planned. |
 | `DRAFT` | Work in progress. Not approved. Do not build to this. |
+| `SCOPING` | Being sized and estimated. |
+| `SPECIFYING` | Spec being written and refined. Sub-stages: Detailed Requirements → In Review → Signed Off → Detailed Estimation. |
 | `APPROVED` | Stable. Approved for implementation. |
+| `SCHEDULING` | Prioritized; resources committed. In Linear::Planned. |
 | `STARTED` | In active development. In Linear::In Progress. |
 | `SHIPPED` | Live in production. Doc is now a historical record. |
 | `DEPRECATED` | Superseded or abandoned. Do not reference. |
@@ -92,12 +93,6 @@ BACKLOG → SCOPING → SCHEDULING → DRAFT → APPROVED → STARTED → SHIPPE
 5. Do not change status to `APPROVED` without team sign-off.
 
 **Approval is recorded in the spec itself.** When a spec is ready for approval, both the product lead and engineering lead must add their handle and date to the `Approved by` fields in the spec header. A spec is not `APPROVED` until both fields are filled. Approval happens via PR — the approving engineer and product lead both approve the PR, and the status field is updated to `APPROVED` in the same commit.
-
-**Every spec must include:**
-- Problem statement
-- User stories
-- Invariants it must not violate
-- Open questions and blocking decisions
 
 ### Spec → Linear Handoff
 

@@ -1,6 +1,6 @@
 # [Feature Name] Spec
 
-**Status:** DRAFT | SCOPING | SCHEDULING | APPROVED | STARTED | SHIPPED | DEPRECATED
+**Status:** BACKLOG | DRAFT | SCOPING | SPECIFYING | APPROVED | SCHEDULING | STARTED | SHIPPED | DEPRECATED
 **Owner:** @handle
 **Last Updated:** YYYY-MM-DD
 **Approved by (Product):** —

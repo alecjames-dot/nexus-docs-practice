@@ -19,10 +19,11 @@
   <status-lifecycle>
     <instruction>The status in PRODUCT_MAP.md is the canonical source of truth. Do not infer status from the document itself.</instruction>
     <status name="BACKLOG">Not yet shaped. Do not act on.</status>
-    <status name="SCOPING">Being sized and estimated. Do not build to.</status>
-    <status name="SCHEDULING">Prioritized, resources committed. Do not build to.</status>
     <status name="DRAFT">Work in progress. Not approved. Do not build to without explicit team sign-off.</status>
+    <status name="SCOPING">Being sized and estimated. Do not build to.</status>
+    <status name="SPECIFYING">Spec being written and refined. Sub-stages: Detailed Requirements → In Review → Signed Off → Detailed Estimation. Do not build to.</status>
     <status name="APPROVED">Stable. Safe to implement.</status>
+    <status name="SCHEDULING">Prioritized, resources committed. Do not build to.</status>
     <status name="STARTED">In active development.</status>
     <status name="SHIPPED">Live in production. Treat as a historical record — do not modify.</status>
     <status name="DEPRECATED">Superseded or abandoned. Do not reference under any circumstances.</status>

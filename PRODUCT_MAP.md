@@ -1,6 +1,6 @@
 # Product Map
 
-**Last audited:** 2026-03-03 | **Owner:** @alec | **Status legend below**
+**Last audited:** 2026-03-05 | **Owner:** @alec | **Status legend below**
 
 ---
 
@@ -9,10 +9,11 @@
 | Badge | Meaning |
 |-------|---------|
 | `BACKLOG` | Ideas for initiatives to be shaped and validated. Not in Linear. |
-| `SCOPING` | Initiative is being estimated at a high level to determine where it should land on the roadmap and determine trade-offs. |
-| `SCHEDULING` | Initiative is prioritized on the roadmap and resource capacity committed to by engineering and other dependent teams. In Linear::Planned. |
 | `DRAFT` | Work in progress. Not approved for implementation. Do not build to this. |
+| `SCOPING` | Initiative is being estimated at a high level to determine where it should land on the roadmap and determine trade-offs. |
+| `SPECIFYING` | Spec is being written and refined. Sub-stages: Detailed Requirements → In Review → Signed Off → Detailed Estimation. |
 | `APPROVED` | Approved for implementation. Stable spec. |
+| `SCHEDULING` | Initiative is prioritized on the roadmap and resource capacity committed to by engineering and other dependent teams. In Linear::Planned. |
 | `STARTED` | Work has started. In Linear::In Progress. |
 | `SHIPPED` | Feature is live in production. Spec is now a historical record. |
 | `DEPRECATED` | Superseded or abandoned. Do not reference or build to this. |
@@ -21,41 +22,24 @@
 
 ## Product Planning Board
 
-| Spec | `BACKLOG` | `SCOPING` | `SCHEDULING` | `DRAFT` | `APPROVED` | `STARTED` | `SHIPPED` |
-|------|:---------:|:---------:|:------------:|:-------:|:----------:|:---------:|:---------:|
-| [Nexus Mainnet](docs/product/specs/nexus-mainnet/SPEC.md) | | | | | | ● | |
-| [Nexus Exchange](docs/product/specs/nexus-exchange/SPEC.md) | | | | ● | | | |
-| [USDX V1](docs/product/specs/usdx/SPEC.md) | | | | | | ● | |
-| [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | | | ● | | | | |
-| [zkVM](docs/product/specs/zkvm/SPEC.md) | | | | ● | | | |
-| [ICO](docs/product/specs/ico/SPEC.md) | | | | ● | | | |
+| Spec | Product | `BACKLOG` | `DRAFT` | `SCOPING` | `SPECIFYING` | `APPROVED` | `SCHEDULING` | `STARTED` | `SHIPPED` |
+|------|---------|:---------:|:-------:|:---------:|:------------:|:----------:|:------------:|:---------:|:---------:|
+| [Mainnet V1](docs/product/specs/nexus-mainnet/SPEC.md) | Exchange Blockchain | | | | | | | ● | |
+| [Exchange V1](docs/product/specs/nexus-exchange/SPEC.md) | Nexus Exchange | | ● | | | | | | |
+| [USDX V1](docs/product/specs/usdx/SPEC.md) | USDX | | | | | | | ● | |
+| [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | USDX | | | | | | ● | | |
+| [zkVM V1](docs/product/specs/zkvm/SPEC.md) | zkVM | | ● | | | | | | |
+| [Genesis ICO](docs/product/specs/ico/SPEC.md) | ICO | | ● | | | | | | |
 
 ---
 
-## Foundation
+## Product Context
 
 | Document | Owner | Description |
 |----------|-------|-------------|
 | nexus/strategy/ | @Daniel | Mission and north star |
 | [ROADMAP.md](docs/product/ROADMAP.md) | @Gordon | Phase-by-phase delivery plan |
 | [README.md](README.md) | @alec | Repo overview, doc system conventions, status lifecycle, naming rules |
-
----
-
-## AI Context
-
-| Document | Owner | Description |
-|----------|-------|-------------|
-| [CLAUDE.md](CLAUDE.md) | @alec | AI agent briefing — context acquisition instructions and invariants |
-| [GLOSSARY.md](GLOSSARY.md) | @alec | Domain term definitions |
-
----
-
-## Research
-
-| Document | Owner | Description |
-|----------|-------|-------------|
-| [User Research Insights](docs/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
 
 ---
 
@@ -96,6 +80,14 @@
 
 ---
 
+## Research
+
+| Document | Owner | Description |
+|----------|-------|-------------|
+| [User Research Insights](docs/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
+
+---
+
 ## Open Drafts
 
 **Intention here is to have specs in the 'scoping' and 'specified' statuses, for a lead engineer to estimate etc.**
@@ -121,3 +113,12 @@
 |----------|---------|
 | [Spec Template](docs/product/specs/_template/SPEC.md) | New feature specs |
 | [Project Plan Template](docs/product/specs/_template/PROJECT_PLAN.md) | Per-product project plans |
+
+---
+
+## AI Context
+
+| Document | Owner | Description |
+|----------|-------|-------------|
+| [CLAUDE.md](CLAUDE.md) | @alec | AI agent briefing — context acquisition instructions and invariants |
+| [GLOSSARY.md](GLOSSARY.md) | @alec | Domain term definitions |
