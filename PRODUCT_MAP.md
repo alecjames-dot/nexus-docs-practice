@@ -91,7 +91,9 @@
 
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [User Research Insights](docs/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
+| [User Research Insights](docs/research/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
+| [Scaling Projections for Nexus Mainnet](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET.md) | — | — |
+| [Scaling Projections for Nexus Mainnet — One-Pager](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET-ONE-PAGER.md) | — | — |
 
 ---
 

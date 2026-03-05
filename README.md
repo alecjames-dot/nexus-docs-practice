@@ -33,8 +33,11 @@ nexus-docs-practice/
     │       ├── nexus-exchange/
     │       ├── usdx/
     │       └── zkvm/
-    ├── user-research-insights/
-    │   └── USER_RESEARCH_INSIGHTS.md
+    ├── research/
+    │   ├── user-research-insights/
+    │   │   └── USER_RESEARCH_INSIGHTS.md
+    │   ├── SCALING-PROJECTIONS-NEXUS-MAINNET.md
+    │   └── SCALING-PROJECTIONS-NEXUS-MAINNET-ONE-PAGER.md
     └── ai-context/
         └── GLOSSARY.md
 ```
@@ -121,7 +124,7 @@ Every product has a paired `PROJECT_PLAN.md` alongside its `SPEC.md`. The projec
 
 ## Research Documents
 
-User research insights live under `docs/user-research-insights/`. Research docs link to the specs they informed and do not go through the spec status lifecycle. Use a simple header block:
+User research insights live under `docs/research/`. Research docs link to the specs they informed and do not go through the spec status lifecycle. Use a simple header block:
 
 ```
 # [Title]
