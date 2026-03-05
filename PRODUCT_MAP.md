@@ -31,6 +31,7 @@
 | [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | USDX | Min: / Max: | | | | | | ● | | |
 | zkVM V1 | zkVM | Min: / Max: | | ● | | | | | | |
 | [Proof of Reserves V1](docs/product/specs/zkvm/PROOF-OF-RESERVES-V1-SPEC.md) | zkVM | Min: 3w / Max: 5w | | | | ● | | | | |
+| [Confidential Stablecoin Transfers](docs/product/specs/zkvm/CONFIDENTIAL-STABLECOIN-TRANSFERS-SPEC.md) | zkVM | Min: / Max: | | ● | | | | | | |
 | [Genesis ICO](docs/product/specs/ico/SPEC.md) | ICO | Min: / Max: | | | | | | | ● | |
 | [TGE — Mint](docs/product/specs/tge/PROJECT_PLAN.md) | TGE | Min: / Max: | | | | | | | ● | |
 
@@ -50,35 +51,36 @@
 
 ### Nexus Mainnet
 
-| Spec | Owner | Status | Last Updated | Project Plan |
-|------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
-| [REWARDS-SYSTEM-V1-SPEC.md](docs/product/specs/nexus-mainnet/REWARDS-SYSTEM-V1-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SPECIFYING | 2026-03-05 | — |
+| Spec | Owner | Status | Last Updated | Project Plan | Prototype |
+|------|-------|--------|--------------|--------------|-----------|
+| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) | — |
+| [REWARDS-SYSTEM-V1-SPEC.md](docs/product/specs/nexus-mainnet/REWARDS-SYSTEM-V1-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SPECIFYING | 2026-03-05 | — | — |
 
 ### USDX
 
-| Spec | Owner | Status | Last Updated | Project Plan |
-|------|-------|--------|--------------|--------------|
-| [V1 SPEC.md](docs/product/specs/usdx/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
-| [V2 USDX-V2-SPEC.md](docs/product/specs/usdx/USDX-V2-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SCHEDULING | 2026-03-05 | — |
+| Spec | Owner | Status | Last Updated | Project Plan | Prototype |
+|------|-------|--------|--------------|--------------|-----------|
+| [V1 SPEC.md](docs/product/specs/usdx/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) | — |
+| [V2 USDX-V2-SPEC.md](docs/product/specs/usdx/USDX-V2-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SCHEDULING | 2026-03-05 | — | — |
 
 ### ICO
 
-| Spec | Owner | Status | Last Updated | Project Plan |
-|------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | STARTED | 2026-03-05 | [PROJECT_PLAN.md](docs/product/specs/ico/PROJECT_PLAN.md) |
+| Spec | Owner | Status | Last Updated | Project Plan | Prototype |
+|------|-------|--------|--------------|--------------|-----------|
+| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | STARTED | 2026-03-05 | [PROJECT_PLAN.md](docs/product/specs/ico/PROJECT_PLAN.md) | — |
 
 ### TGE
 
-| Spec | Owner | Status | Last Updated | Project Plan |
-|------|-------|--------|--------------|--------------|
-| — | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-01-13 | [PROJECT_PLAN.md](docs/product/specs/tge/PROJECT_PLAN.md) |
+| Spec | Owner | Status | Last Updated | Project Plan | Prototype |
+|------|-------|--------|--------------|--------------|-----------|
+| — | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-01-13 | [PROJECT_PLAN.md](docs/product/specs/tge/PROJECT_PLAN.md) | — |
 
 ### zkVM
 
-| Spec | Owner | Status | Last Updated | Project Plan |
-|------|-------|--------|--------------|--------------|
-| [PROOF-OF-RESERVES-V1-SPEC.md](docs/product/specs/zkvm/PROOF-OF-RESERVES-V1-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SPECIFYING | 2026-03-05 | — |
+| Spec | Owner | Status | Last Updated | Project Plan | Prototype |
+|------|-------|--------|--------------|--------------|-----------|
+| [PROOF-OF-RESERVES-V1-SPEC.md](docs/product/specs/zkvm/PROOF-OF-RESERVES-V1-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SPECIFYING | 2026-03-05 | — | — |
+| [CONFIDENTIAL-STABLECOIN-TRANSFERS-SPEC.md](docs/product/specs/zkvm/CONFIDENTIAL-STABLECOIN-TRANSFERS-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | DRAFT | 2026-03-05 | — | [Nexus-Confidential-Stablecoin.html](docs/product/specs/zkvm/prototype/Nexus-Confidential-Stablecoin.html) |
 
 ---
 
