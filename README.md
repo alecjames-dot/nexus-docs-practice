@@ -47,8 +47,8 @@ nexus-docs-practice/
 ## Quick Start
 
 1. Check `PRODUCT_MAP.md` for the current status of any document before referencing it.
-2. Read `CLAUDE.md` before using AI tooling on this repo.
-3. Read the relevant spec in `docs/product/specs/` before building anything.
+2. Direct Claude to read `CLAUDE.md` for context on how to interat with this repo.
+3. Read the relevant spec in `docs/product/specs/` and check its status before building anything.
 
 ---
 
@@ -77,11 +77,11 @@ BACKLOG → DRAFT → SCOPING → SPECIFYING → APPROVED → SCHEDULING → STA
 |--------|---------|
 | `BACKLOG` | Ideas not yet shaped. Not in Linear. |
 | `DRAFT` | Work in progress. Not approved. Do not build to this. |
-| `SCOPING` | Being sized and estimated. |
+| `SCOPING` | Initial sizing and estimation. |
 | `SPECIFYING` | Spec being written and refined. Sub-stages: Detailed Requirements → In Review → Signed Off → Detailed Estimation. |
-| `APPROVED` | Stable. Approved for implementation. |
-| `SCHEDULING` | Prioritized; resources committed. In Linear::Planned. |
-| `STARTED` | In active development. In Linear::In Progress. |
+| `APPROVED` | Finalized spec. Approved for implementation. Tasks being implemented in Linear. |
+| `SCHEDULING` | Scheduling in development timeline; resources committed. |
+| `STARTED` | In active development. |
 | `SHIPPED` | Live in production. Doc is now a historical record. |
 | `DEPRECATED` | Superseded or abandoned. Do not reference. |
 
@@ -137,21 +137,11 @@ Date: YYYY-MM-DD | Author: @name | Type: [Interview / Survey / Analysis]
 
 Before using Claude or any AI agent on this repo:
 
-1. Read `CLAUDE.md` — it contains invariants the AI must never violate.
+1. Point it to read `CLAUDE.md` — it contains invariants the AI must never violate.
 2. Point the agent at `PRODUCT_MAP.md` for status context.
 3. Point the agent at `GLOSSARY.md` for domain terminology.
 
 AI agents must not generate code or specs for `DRAFT` documents without explicit team sign-off.
-
----
-
-## Naming Conventions
-
-| Type | Convention | Example |
-|------|-----------|---------|
-| Specs | `SCREAMING-KEBAB.md` | `YIELD-SPEC.md` |
-| Research docs | `SCREAMING-KEBAB.md` | `USER_RESEARCH_INSIGHTS.md` |
-| Directories | `kebab-case` | `nexus-mainnet/` |
 
 ---
 
