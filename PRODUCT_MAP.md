@@ -101,7 +101,8 @@
 
 | Document | Deprecated | Reason |
 |----------|-----------|--------|
-| [Nexus DEX Alpha](docs/product/specs/nexus-exchange/DEX-ALPHA-SPEC.md) | 2026-03-04 | Missed delivery — product redesign |
+| [Nexus DEX Alpha V1](docs/product/specs/nexus-exchange/DEX-ALPHA-SPEC.md) | 2026-03-04 | Missed delivery — product redesign |
+| [Nexus DEX Alpha V2](docs/product/specs/nexus-exchange/DEX-ALPHA-V2-SPEC.md) | 2026-03-05 | Missed delivery — product redesign |
 
 ---
 
