@@ -29,7 +29,7 @@
 | [USDX V1](docs/product/specs/usdx/SPEC.md) | USDX | | | | | | | ● | |
 | [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | USDX | | | | | | ● | | |
 | [zkVM V1](docs/product/specs/zkvm/SPEC.md) | zkVM | | ● | | | | | | |
-| [Genesis ICO](docs/product/specs/ico/SPEC.md) | ICO | | ● | | | | | | |
+| [Genesis ICO](docs/product/specs/ico/SPEC.md) | ICO | | | | | | | ● | |
 | [TGE — Mint](docs/product/specs/tge/PROJECT_PLAN.md) | TGE | | | | | | | ● | |
 
 ---
@@ -71,7 +71,7 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | DRAFT | 2026-01-11 | [PROJECT_PLAN.md](docs/product/specs/ico/PROJECT_PLAN.md) |
+| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | STARTED | 2026-03-05 | [PROJECT_PLAN.md](docs/product/specs/ico/PROJECT_PLAN.md) |
 
 ### TGE
 
