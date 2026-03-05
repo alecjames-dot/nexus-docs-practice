@@ -22,15 +22,15 @@
 
 ## Product Planning Board
 
-| Spec | Product | `BACKLOG` | `DRAFT` | `SCOPING` | `SPECIFYING` | `APPROVED` | `SCHEDULING` | `STARTED` | `SHIPPED` |
-|------|---------|:---------:|:-------:|:---------:|:------------:|:----------:|:------------:|:---------:|:---------:|
-| [Mainnet V1](docs/product/specs/nexus-mainnet/SPEC.md) | Exchange Blockchain | | | | | | | ● | |
-| [Exchange V1](docs/product/specs/nexus-exchange/SPEC.md) | Nexus Exchange | | ● | | | | | | |
-| [USDX V1](docs/product/specs/usdx/SPEC.md) | USDX | | | | | | | ● | |
-| [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | USDX | | | | | | ● | | |
-| [zkVM V1](docs/product/specs/zkvm/SPEC.md) | zkVM | | ● | | | | | | |
-| [Genesis ICO](docs/product/specs/ico/SPEC.md) | ICO | | | | | | | ● | |
-| [TGE — Mint](docs/product/specs/tge/PROJECT_PLAN.md) | TGE | | | | | | | ● | |
+| Spec | Product | Estimation | `BACKLOG` | `DRAFT` | `SCOPING` | `SPECIFYING` | `APPROVED` | `SCHEDULING` | `STARTED` | `SHIPPED` |
+|------|---------|------------|:---------:|:-------:|:---------:|:------------:|:----------:|:------------:|:---------:|:---------:|
+| [Mainnet V1](docs/product/specs/nexus-mainnet/SPEC.md) | Exchange Blockchain | Min: / Max: | | | | | | | ● | |
+| [Exchange V1](docs/product/specs/nexus-exchange/SPEC.md) | Nexus Exchange | Min: / Max: | | ● | | | | | | |
+| [USDX V1](docs/product/specs/usdx/SPEC.md) | USDX | Min: / Max: | | | | | | | ● | |
+| [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | USDX | Min: / Max: | | | | | | ● | | |
+| [zkVM V1](docs/product/specs/zkvm/SPEC.md) | zkVM | Min: / Max: | | ● | | | | | | |
+| [Genesis ICO](docs/product/specs/ico/SPEC.md) | ICO | Min: / Max: | | | | | | | ● | |
+| [TGE — Mint](docs/product/specs/tge/PROJECT_PLAN.md) | TGE | Min: / Max: | | | | | | | ● | |
 
 ---
 
