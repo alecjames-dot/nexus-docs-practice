@@ -92,6 +92,7 @@
 | Document | Owner | Description |
 |----------|-------|-------------|
 | [User Research Insights](docs/research/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
+| [Round 1 — 2 Institutions, 8 Retail Users](docs/research/user-research-insights/ROUND-1-2-INSTITUTIONS-8-RETAIL-USERS.md) | — | MMs, power users, crypto builders, crypto researchers |
 | [Scaling Projections for Nexus Mainnet](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET.md) | — | — |
 | [Scaling Projections for Nexus Mainnet — One-Pager](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET-ONE-PAGER.md) | — | — |
 
