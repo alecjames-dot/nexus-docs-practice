@@ -23,9 +23,9 @@
 
 | Spec | `BACKLOG` | `SCOPING` | `SCHEDULING` | `DRAFT` | `APPROVED` | `STARTED` | `SHIPPED` |
 |------|:---------:|:---------:|:------------:|:-------:|:----------:|:---------:|:---------:|
-| [Nexus Mainnet](docs/product/specs/nexus-mainnet/SPEC.md) | | | | ● | | | |
+| [Nexus Mainnet](docs/product/specs/nexus-mainnet/SPEC.md) | | | | | | ● | |
 | [Nexus Exchange](docs/product/specs/nexus-exchange/SPEC.md) | | | | ● | | | |
-| [USDX](docs/product/specs/usdx/SPEC.md) | | | | ● | | | |
+| [USDX](docs/product/specs/usdx/SPEC.md) | | | | | | ● | |
 | [zkVM](docs/product/specs/zkvm/SPEC.md) | | | | ● | | | |
 
 ---
@@ -65,7 +65,7 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | — | DRAFT | 2026-03-03 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
+| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | @alec | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
 
 ### Nexus Exchange
 
@@ -77,7 +77,7 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/usdx/SPEC.md) | — | DRAFT | 2026-03-03 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
+| [SPEC.md](docs/product/specs/usdx/SPEC.md) | @alec | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
 
 ### zkVM
 
@@ -101,7 +101,7 @@
 
 | Document | Deprecated | Reason |
 |----------|-----------|--------|
-| — | — | — |
+| [Nexus DEX Alpha](docs/product/specs/nexus-exchange/DEX-ALPHA-SPEC.md) | 2026-03-04 | Missed delivery — product redesign |
 
 ---
 
