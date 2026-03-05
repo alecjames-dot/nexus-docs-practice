@@ -25,6 +25,7 @@
 | Spec | Product | Estimation | `BACKLOG` | `DRAFT` | `SCOPING` | `SPECIFYING` | `APPROVED` | `SCHEDULING` | `STARTED` | `SHIPPED` |
 |------|---------|------------|:---------:|:-------:|:---------:|:------------:|:----------:|:------------:|:---------:|:---------:|
 | [Mainnet V1](docs/product/specs/nexus-mainnet/SPEC.md) | Exchange Blockchain | Min: / Max: | | | | | | | ● | |
+| [Rewards System V1](docs/product/specs/nexus-mainnet/REWARDS-SYSTEM-V1-SPEC.md) | Exchange Blockchain | Min: 2w / Max: 3w | | | | ● | | | | |
 | Exchange V1 | Nexus Exchange | Min: / Max: | | ● | | | | | | |
 | [USDX V1](docs/product/specs/usdx/SPEC.md) | USDX | Min: / Max: | | | | | | | ● | |
 | [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | USDX | Min: / Max: | | | | | | ● | | |
@@ -51,6 +52,7 @@
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
 | [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
+| [REWARDS-SYSTEM-V1-SPEC.md](docs/product/specs/nexus-mainnet/REWARDS-SYSTEM-V1-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SPECIFYING | 2026-03-05 | — |
 
 ### USDX
 
