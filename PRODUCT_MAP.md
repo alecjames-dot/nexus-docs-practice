@@ -98,8 +98,6 @@
 
 ## Open Drafts
 
-**Intention here is to have specs in the 'scoping' and 'specified' statuses, for a lead engineer to estimate etc.**
-
 | Spec | Owner | Blocking Question |
 |------|-------|-------------------|
 | — | — | — |
