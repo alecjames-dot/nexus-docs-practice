@@ -1,7 +1,7 @@
 # USDX — V2 Spec
 
 **Status:** SCHEDULING
-**Owner:** @alec
+**Owner:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** 2026-03-05
 **Approved by (Product):** @Daniel Marin
 **Approved by (Engineering):** —
@@ -315,15 +315,15 @@ All AC items above are checked AND:
 
 ## 7. Open Questions
 
-- [ ] **OQ-001** — Bridging partner selection — Owner: @alec — Resolve by: before bridge contract deployment
-- [ ] **OQ-002** — SwapFacility M0 contract address — Owner: @alec — Resolve by: before 5.2 implementation
-- [ ] **OQ-003** — M0 Uniswap pool address for $wM → USDC — Owner: @alec — Resolve by: before 5.2 implementation
+- [ ] **OQ-001** — Bridging partner selection — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before bridge contract deployment
+- [ ] **OQ-002** — SwapFacility M0 contract address — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before 5.2 implementation
+- [ ] **OQ-003** — M0 Uniswap pool address for $wM → USDC — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before 5.2 implementation
 - [ ] **OQ-004** — Uniswap V3 deployment: Nexus-owned vs. partner — Owner: @Stanley Jones — Resolve by: before contract audit
-- [ ] **OQ-005** — Minimum liquidity threshold for pools before enabling conversion UX — Owner: @alec / @Stanley Jones — Resolve by: before pool launch
-- [ ] **OQ-006** — Engineering sign-off (@Stanley Jones, @Sasha) — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-007** — Legal sign-off (Roza, Lisa) — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-008** — Security sign-off (Ben) — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-009** — Gordon (@Gordon Mattey) Product sign-off — Owner: @alec — Resolve by: before APPROVED
+- [ ] **OQ-005** — Minimum liquidity threshold for pools before enabling conversion UX — Owner: [@alecjames-dot](https://github.com/alecjames-dot) / @Stanley Jones — Resolve by: before pool launch
+- [ ] **OQ-006** — Engineering sign-off (@Stanley Jones, @Sasha) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-007** — Legal sign-off (Roza, Lisa) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-008** — Security sign-off (Ben) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-009** — Gordon (@Gordon Mattey) Product sign-off — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
 
 ---
 
@@ -359,5 +359,5 @@ All AC items above are checked AND:
 
 | Date | Author | Change |
 |------|--------|--------|
-| 2026-03-05 | @alec | V2 spec created |
+| 2026-03-05 | [@alecjames-dot](https://github.com/alecjames-dot) | V2 spec created |
 | 2026-02-20 | @Daniel Marin, @Daniel McGlynn | Product and Marketing round 1 sign-off |

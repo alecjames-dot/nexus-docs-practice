@@ -2,7 +2,7 @@
 
 Product documentation for the Nexus protocol — a spot and perpetual futures exchange where every trade is provable. The purpose-built Exchange blockchain generates validity proofs for every state transition, so execution can be verified without trusting an operator.
 
-**Owner:** @alec | **Last updated:** 2026-03-04
+**Owner:** [@alecjames-dot](https://github.com/alecjames-dot) | **Last updated:** 2026-03-04
 
 ---
 

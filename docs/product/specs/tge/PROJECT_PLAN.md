@@ -1,7 +1,7 @@
 # Nexus Token Launch (TGE — Mint) — Project Plan
 
 **Status:** Active
-**Project Manager:** @alec
+**Project Manager:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** January 13, 2026
 **Paired Spec:** —
 

@@ -1,7 +1,7 @@
 # USDX Stablecoin — Project Plan
 
 **Status:** Active
-**Project Manager:** @alec
+**Project Manager:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** January 13, 2026
 **Paired Spec:** [USDX V1 Spec](./SPEC.md)
 

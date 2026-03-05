@@ -1,7 +1,7 @@
 # Nexus Mainnet — Project Plan
 
 **Status:** Active
-**Project Manager:** @alec
+**Project Manager:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** 2026-03-05
 **Paired Spec:** [Nexus Mainnet V1 Spec](./SPEC.md)
 **Reference:** [[Final] EVM L1 PRD](https://www.notion.so/Final-EVM-L1-PRD-2c367845c2f480aa83baffb4442fc4be?pvs=21)

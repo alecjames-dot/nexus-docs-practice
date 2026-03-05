@@ -1,6 +1,6 @@
 # Product Map
 
-**Last audited:** 2026-03-05 | **Owner:** @alec | **Status legend below**
+**Last audited:** 2026-03-05 | **Owner:** [@alecjames-dot](https://github.com/alecjames-dot) | **Status legend below**
 
 ---
 
@@ -40,7 +40,7 @@
 |----------|-------|-------------|
 | nexus/strategy/ | @Daniel | Mission and north star |
 | [ROADMAP.md](docs/product/ROADMAP.md) | @Gordon | Phase-by-phase delivery plan |
-| [README.md](README.md) | @alec | Repo overview, doc system conventions, status lifecycle, naming rules |
+| [README.md](README.md) | [@alecjames-dot](https://github.com/alecjames-dot) | Repo overview, doc system conventions, status lifecycle, naming rules |
 
 ---
 
@@ -52,7 +52,7 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | @alec | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
+| [SPEC.md](docs/product/specs/nexus-mainnet/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/nexus-mainnet/PROJECT_PLAN.md) |
 
 ### Nexus Exchange
 
@@ -64,8 +64,8 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| [V1 SPEC.md](docs/product/specs/usdx/SPEC.md) | @alec | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
-| [V2 USDX-V2-SPEC.md](docs/product/specs/usdx/USDX-V2-SPEC.md) | @alec | SCHEDULING | 2026-03-05 | — |
+| [V1 SPEC.md](docs/product/specs/usdx/SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
+| [V2 USDX-V2-SPEC.md](docs/product/specs/usdx/USDX-V2-SPEC.md) | [@alecjames-dot](https://github.com/alecjames-dot) | SCHEDULING | 2026-03-05 | — |
 
 ### ICO
 
@@ -77,7 +77,7 @@
 
 | Spec | Owner | Status | Last Updated | Project Plan |
 |------|-------|--------|--------------|--------------|
-| — | @alec | STARTED | 2026-01-13 | [PROJECT_PLAN.md](docs/product/specs/tge/PROJECT_PLAN.md) |
+| — | [@alecjames-dot](https://github.com/alecjames-dot) | STARTED | 2026-01-13 | [PROJECT_PLAN.md](docs/product/specs/tge/PROJECT_PLAN.md) |
 
 ### zkVM
 
@@ -91,7 +91,7 @@
 
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [User Research Insights](docs/research/user-research-insights/USER_RESEARCH_INSIGHTS.md) | @alec | Interview findings, survey data, usability insights |
+| [User Research Insights](docs/research/user-research-insights/USER_RESEARCH_INSIGHTS.md) | [@alecjames-dot](https://github.com/alecjames-dot) | Interview findings, survey data, usability insights |
 | [Round 1 — 2 Institutions, 8 Retail Users](docs/research/user-research-insights/ROUND-1-2-INSTITUTIONS-8-RETAIL-USERS.md) | — | MMs, power users, crypto builders, crypto researchers |
 | [Scaling Projections for Nexus Mainnet](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET.md) | — | — |
 | [Scaling Projections for Nexus Mainnet — One-Pager](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET-ONE-PAGER.md) | — | — |
@@ -130,5 +130,5 @@
 
 | Document | Owner | Description |
 |----------|-------|-------------|
-| [CLAUDE.md](CLAUDE.md) | @alec | AI agent briefing — context acquisition instructions and invariants |
-| [GLOSSARY.md](GLOSSARY.md) | @alec | Domain term definitions |
+| [CLAUDE.md](CLAUDE.md) | [@alecjames-dot](https://github.com/alecjames-dot) | AI agent briefing — context acquisition instructions and invariants |
+| [GLOSSARY.md](GLOSSARY.md) | [@alecjames-dot](https://github.com/alecjames-dot) | Domain term definitions |

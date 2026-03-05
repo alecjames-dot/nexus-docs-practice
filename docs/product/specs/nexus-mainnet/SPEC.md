@@ -1,7 +1,7 @@
 # Nexus Mainnet — V1 Launch Spec
 
 **Status:** STARTED
-**Owner:** @alec
+**Owner:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** 2026-03-04
 **Approved by (Product):** @Daniel Marin
 **Approved by (Engineering):** @Stanley Jones, @Alex "Sasha" Potashnik
@@ -604,14 +604,14 @@ All AC items above are checked AND:
 
 ## 7. Open Questions
 
-- [ ] **OQ-001** — NEX Foundation custody address from Anchorage — Owner: @alec — Resolve by: before genesis
+- [ ] **OQ-001** — NEX Foundation custody address from Anchorage — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before genesis
 - [ ] **OQ-002** — Gas fee recipient address — Owner: @Daniel Marin — Resolve by: before genesis
 - [ ] **OQ-003** — Rewards pool EOA address — Owner: @Daniel Marin — Resolve by: before genesis
 - [ ] **OQ-004** — Foundation canonical deployer public key — Owner: @Daniel Marin — Resolve by: before genesis
-- [ ] **OQ-005** — Chainlist mainnet PR (waiting on private mainnet launch) — Owner: @alec — Resolve by: before mainnet
-- [ ] **OQ-006** — Bridge UX design — Owner: @alec — Resolve by: before mainnet
+- [ ] **OQ-005** — Chainlist mainnet PR (waiting on private mainnet launch) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before mainnet
+- [ ] **OQ-006** — Bridge UX design — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before mainnet
 - [ ] **OQ-007** — Professional RPC provider agreement (for validator partner bundle) — Owner: @Alex Fowler — Resolve by: before mainnet
-- [ ] **OQ-008** — Faucet provision by infra provider confirmed or denied — Owner: @alec — Resolve by: before testnet
+- [ ] **OQ-008** — Faucet provision by infra provider confirmed or denied — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before testnet
 - [ ] **OQ-009** — Minimum relayer funding threshold for LayerZero bridge (75T NEX confirmed?) — Owner: @Stanley Jones — Resolve by: before bridge deployment
 
 ---
@@ -649,7 +649,7 @@ All AC items above are checked AND:
 
 | Date | Author | Change |
 |------|--------|--------|
-| 2026-03-04 | @alec | Migrated V1 spec into SPEC.md template |
+| 2026-03-04 | [@alecjames-dot](https://github.com/alecjames-dot) | Migrated V1 spec into SPEC.md template |
 | 2026-01-13 | @Stanley Jones, @Alex "Sasha" Potashnik | Engineering sign-off |
 | 2026-01-09 | @Daniel Marin | Product, Marketing, Security sign-off |
 

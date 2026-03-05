@@ -1,7 +1,7 @@
 # Nexus DEX Alpha Spec
 
 **Status:** DEPRECATED
-**Owner:** @alec
+**Owner:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** 2026-03-04
 **Approved by (Product):** @Daniel Marin
 **Approved by (Engineering):** @Stanley Jones, @Alex "Sasha" Potashnik, @Sam J
@@ -375,8 +375,8 @@ Actions: Close Market, Close Limit.
 
 | Date | Author | Change |
 |------|--------|--------|
-| 2026-03-04 | @alec | Deprecated — missed delivery; product redesign |
-| — | @alec | Initial draft |
+| 2026-03-04 | [@alecjames-dot](https://github.com/alecjames-dot) | Deprecated — missed delivery; product redesign |
+| — | [@alecjames-dot](https://github.com/alecjames-dot) | Initial draft |
 
 ---
 

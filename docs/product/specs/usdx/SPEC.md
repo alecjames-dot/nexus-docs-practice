@@ -1,7 +1,7 @@
 # USDX — V1 Spec
 
 **Status:** STARTED
-**Owner:** @alec
+**Owner:** [@alecjames-dot](https://github.com/alecjames-dot)
 **Last Updated:** 2026-03-04
 **Approved by (Product):** @Daniel Marin
 **Approved by (Engineering):** @Stanley Jones
@@ -170,11 +170,11 @@ All AC items above are checked AND:
 ## 7. Open Questions
 
 - [ ] **OQ-001** — Foundation custody address for M0 yield routing — Owner: @Daniel Marin — Resolve by: before Mainnet deployment
-- [ ] **OQ-002** — Halliday onramp design and UX — Owner: @alec — Resolve by: fast-follow to core deployment
-- [ ] **OQ-003** — Gordon (@Gordon Mattey) Product sign-off pending — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-004** — Legal sign-off (Roza, Lisa) — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-005** — Security sign-off (Ben) — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-006** — BD sign-off (Alex Fowler) — Owner: @alec — Resolve by: before APPROVED
+- [ ] **OQ-002** — Halliday onramp design and UX — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: fast-follow to core deployment
+- [ ] **OQ-003** — Gordon (@Gordon Mattey) Product sign-off pending — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-004** — Legal sign-off (Roza, Lisa) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-005** — Security sign-off (Ben) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-006** — BD sign-off (Alex Fowler) — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
 
 ---
 
@@ -210,7 +210,7 @@ All AC items above are checked AND:
 
 | Date | Author | Change |
 |------|--------|--------|
-| 2026-03-04 | @alec | V1 spec migrated into SPEC.md template |
+| 2026-03-04 | [@alecjames-dot](https://github.com/alecjames-dot) | V1 spec migrated into SPEC.md template |
 | 2026-01-13 | @Stanley Jones | Engineering sign-off |
 | 2026-01-09 | @Daniel Marin, @Lauren Dresnick, @Daniel McGlynn | Product and Marketing sign-off |
 

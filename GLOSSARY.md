@@ -2,7 +2,7 @@
 
 Canonical definitions for Nexus domain terminology. When in doubt, these definitions govern. If a term is used in a spec with a meaning that conflicts with this glossary, the glossary takes precedence and the spec must be updated.
 
-Last updated: 2026-03-03 | Owner: @alec
+Last updated: 2026-03-03 | Owner: [@alecjames-dot](https://github.com/alecjames-dot)
 
 **MOVE THIS TO TOP FOLDER**
 

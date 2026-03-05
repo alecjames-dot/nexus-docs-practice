@@ -337,9 +337,9 @@ All AC items above are checked AND:
 - [ ] **OQ-004** — Treasury setup for receiving USDT proceeds — Owner: Finance — Resolve by: before Apr 3 (deposit open)
 - [ ] **OQ-005** — Dynamic dedicated cluster confirmed and notified — Owner: Engineering — Resolve by: a few days before Mar 17
 - [ ] **OQ-006** — Priority allocation formula finalised — Owner: @gordon — Reference: [ICO Priority Allocation Formula](https://www.notion.so/ICO-Priority-Allocation-Formula-2fe67845c2f480409245ffb9b30e25f5?pvs=21)
-- [ ] **OQ-007** — Engineering sign-off — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-008** — Legal sign-off — Owner: @alec — Resolve by: before APPROVED
-- [ ] **OQ-009** — Security sign-off — Owner: @alec — Resolve by: before APPROVED
+- [ ] **OQ-007** — Engineering sign-off — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-008** — Legal sign-off — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
+- [ ] **OQ-009** — Security sign-off — Owner: [@alecjames-dot](https://github.com/alecjames-dot) — Resolve by: before APPROVED
 
 ---
 

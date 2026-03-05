@@ -1,6 +1,6 @@
 # User Research Insights
 
-**Last updated:** 2026-03-02 | **Owner:** @alec | **Type:** Ongoing
+**Last updated:** 2026-03-02 | **Owner:** [@alecjames-dot](https://github.com/alecjames-dot) | **Type:** Ongoing
 
 This document aggregates key findings from user interviews, surveys, and usability studies. It is a living document — update it after each research round.
 
