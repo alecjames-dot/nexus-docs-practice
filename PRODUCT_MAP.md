@@ -28,6 +28,7 @@
 | [USDX V1](docs/product/specs/usdx/SPEC.md) | | | | | | ● | |
 | [USDX V2](docs/product/specs/usdx/USDX-V2-SPEC.md) | | | ● | | | | |
 | [zkVM](docs/product/specs/zkvm/SPEC.md) | | | | ● | | | |
+| [ICO](docs/product/specs/ico/SPEC.md) | | | | ● | | | |
 
 ---
 
@@ -80,6 +81,12 @@
 |------|-------|--------|--------------|--------------|
 | [V1 SPEC.md](docs/product/specs/usdx/SPEC.md) | @alec | STARTED | 2026-03-04 | [PROJECT_PLAN.md](docs/product/specs/usdx/PROJECT_PLAN.md) |
 | [V2 USDX-V2-SPEC.md](docs/product/specs/usdx/USDX-V2-SPEC.md) | @alec | SCHEDULING | 2026-03-05 | — |
+
+### ICO
+
+| Spec | Owner | Status | Last Updated | Project Plan |
+|------|-------|--------|--------------|--------------|
+| [SPEC.md](docs/product/specs/ico/SPEC.md) | @gordon | DRAFT | 2026-01-11 | — |
 
 ### zkVM
 
