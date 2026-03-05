@@ -46,8 +46,6 @@
 
 ## Active Specs
 
-**Intention here is to have ratified, approved specs that are ready for development**
-
 ### Nexus Mainnet
 
 | Spec | Owner | Status | Last Updated | Project Plan |
@@ -92,9 +90,9 @@
 | Document | Owner | Description |
 |----------|-------|-------------|
 | [User Research Insights](docs/research/user-research-insights/USER_RESEARCH_INSIGHTS.md) | [@alecjames-dot](https://github.com/alecjames-dot) | Interview findings, survey data, usability insights |
-| [Round 1 — 2 Institutions, 8 Retail Users](docs/research/user-research-insights/ROUND-1-2-INSTITUTIONS-8-RETAIL-USERS.md) | — | MMs, power users, crypto builders, crypto researchers |
-| [Scaling Projections for Nexus Mainnet](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET.md) | — | — |
-| [Scaling Projections for Nexus Mainnet — One-Pager](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET-ONE-PAGER.md) | — | — |
+| [Round 1 — 2 Institutions, 8 Retail Users](docs/research/user-research-insights/ROUND-1-2-INSTITUTIONS-8-RETAIL-USERS.md) | [@alecjames-dot](https://github.com/alecjames-dot)  | MMs, power users, crypto builders, crypto researchers |
+| [Scaling Projections for Nexus Mainnet](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET.md) | [@alecjames-dot](https://github.com/alecjames-dot)  | — |
+| [Scaling Projections for Nexus Mainnet — One-Pager](docs/research/SCALING-PROJECTIONS-NEXUS-MAINNET-ONE-PAGER.md) | [@alecjames-dot](https://github.com/alecjames-dot)  | — |
 
 ---
 
