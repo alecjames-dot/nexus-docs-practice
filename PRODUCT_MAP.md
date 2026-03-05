@@ -1,6 +1,6 @@
 # Product Map
 
-**Last audited:** 2026-03-05 | **Owner:** [@alecjames-dot](https://github.com/alecjames-dot) | **Status legend below**
+**Last audited:** 2026-03-05 | **Owner:** [@alecjames-dot](https://github.com/alecjames-dot) | 
 
 ---
 
