@@ -19,6 +19,10 @@ export interface ComponentPlan {
     name: string;
     fields: string[];
   }>;
+  mockData: {
+    seed: number;
+    values: Record<string, unknown>;
+  };
   pageLayout: string;
 }
 
@@ -51,6 +55,8 @@ function isComponentPlan(value: unknown): value is ComponentPlan {
     Array.isArray(candidate['components']) &&
     Array.isArray(candidate['userFlows']) &&
     Array.isArray(candidate['dataShapes']) &&
+    typeof candidate['mockData'] === 'object' &&
+    candidate['mockData'] !== null &&
     typeof candidate['pageLayout'] === 'string'
   );
 }
@@ -139,6 +145,9 @@ function buildHtmlGenerationPrompt(
   componentPlan: ComponentPlan,
   outputDirectory: string,
 ): string {
+  const seed = componentPlan.mockData?.seed ?? 42;
+  const mockValues = JSON.stringify(componentPlan.mockData?.values ?? {}, null, 2);
+
   return `Write a complete, self-contained HTML prototype to this exact file path:
 ${outputDirectory}/index.html
 
@@ -148,7 +157,13 @@ ${specContent}
 ## Component Plan
 ${JSON.stringify(componentPlan, null, 2)}
 
-Write the complete index.html to the path above. Follow all instructions in the system prompt for design tokens, vanilla JS patterns, and interactivity. Do not write any other files.`;
+## Mock Data Seed and Starting Values
+Use seed ${seed} in the PRNG (as specified in the system prompt). Starting values:
+${mockValues}
+
+Write the complete index.html to the path above.
+Follow all system prompt instructions: design tokens, BEM CSS naming, seeded PRNG, vanilla JS patterns, and interactivity.
+Do not write any other files.`;
 }
 
 function buildReactGenerationPrompt(
